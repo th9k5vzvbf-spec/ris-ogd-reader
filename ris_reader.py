@@ -109,63 +109,82 @@ def parse_page(response: dict) -> tuple[int, list[dict]]:
     return total, documents
 
 
-def find_first(node: object, field: str) -> object | None:
-    """Find a named metadata field in the nested RIS response."""
-    if isinstance(node, dict):
-        for key, value in node.items():
-            if key.lower() == field.lower() and value is not None:
-                return value
-        for value in node.values():
-            found = find_first(value, field)
-            if found is not None:
-                return found
-    elif isinstance(node, list):
-        for item in node:
-            found = find_first(item, field)
-            if found is not None:
-                return found
-    return None
-
-
 def scalar(value: object) -> str | None:
     if isinstance(value, str):
         return value.strip() or None
     if isinstance(value, (int, float)):
         return str(value)
     if isinstance(value, dict):
-        for key in ("#text", "Value"):
+        for key in ("#text", "Value", "item"):
             if key in value:
                 return scalar(value[key])
     if isinstance(value, list):
-        return scalar(value[0]) if value else None
+        texts = [scalar(item) for item in value]
+        return ", ".join(text for text in texts if text) or None
+    return None
+
+
+def allowed_ris_url(value: object) -> str | None:
+    url = scalar(value)
+    if not url:
+        return None
+    parts = urlsplit(url)
+    if (parts.scheme == "https"
+            and parts.username is None
+            and parts.password is None
+            and parts.port in (None, 443)
+            and parts.hostname in ("ris.bka.gv.at", "www.ris.bka.gv.at",
+                                   "data.bka.gv.at")):
+        return url
     return None
 
 
 def record_from_reference(ref: dict, application: str) -> dict:
-    data = ref.get("Data", ref)
-    metadata = data.get("Metadaten", data) if isinstance(data, dict) else data
-    document_id = scalar(find_first(metadata, "ID"))
-    raw_url = scalar(find_first(metadata, "DokumentUrl"))
-    source_url = None
-    if raw_url:
-        parts = urlsplit(raw_url)
-        if parts.scheme == "https" and parts.hostname in (
-            "ris.bka.gv.at", "www.ris.bka.gv.at"
-        ):
-            source_url = raw_url
+    data = ref.get("Data")
+    if not isinstance(data, dict):
+        raise RISResponseError("RIS-Dokument ohne Data")
+    meta = data.get("Metadaten")
+    if not isinstance(meta, dict):
+        raise RISResponseError("RIS-Dokument ohne Metadaten")
+    tech = meta.get("Technisch", {})
+    general = meta.get("Allgemein", {})
+    case = meta.get("Judikatur", {})
+    if not all(isinstance(x, dict) for x in (tech, general, case)):
+        raise RISResponseError("RIS-Metadaten haben unerwartetes Format")
+    document_id = scalar(tech.get("ID"))
     if not document_id:
-        raise RISResponseError("RIS-Dokument ohne ID")
+        raise RISResponseError("RIS-Dokument ohne technische ID")
+
+    # Metadata paths follow RIS OGD v2.6: data/metadaten/technisch,
+    # /allgemein and /judikatur. The URL comes from the RIS itself.
+    links = data.get("Dokumentliste", {})
+    contents: list[dict] = []
+    if isinstance(links, dict):
+        references = links.get("ContentReference", [])
+        references = references if isinstance(references, list) else [references]
+        for entry in references:
+            if not isinstance(entry, dict):
+                continue
+            urls = entry.get("Urls", {})
+            raw_urls = urls.get("ContentUrl", []) if isinstance(urls, dict) else []
+            raw_urls = raw_urls if isinstance(raw_urls, list) else [raw_urls]
+            contents.extend(item for item in raw_urls if isinstance(item, dict))
+    html_url = next(
+        (url for item in contents
+         if item.get("DataType") == "Html"
+         if (url := allowed_ris_url(item.get("Url")))),
+        None,
+    )
     return {
         "id": document_id,
         "application": application,
-        "case_number": scalar(find_first(metadata, "Geschaeftszahl")),
-        "court": scalar(find_first(metadata, "Gericht")),
-        "decision_date": scalar(find_first(metadata, "Entscheidungsdatum")),
-        "published_in_ris": scalar(find_first(metadata, "Veroeffentlicht")),
-        "modified_in_ris": scalar(find_first(metadata, "Geaendert")),
-        "summary": scalar(find_first(metadata, "Kurzinformation")),
-        "source_url": source_url,
+        "case_number": scalar(case.get("Geschaeftszahl")),
+        "court": scalar(tech.get("Organ")),
+        "decision_date": scalar(case.get("Entscheidungsdatum")),
+        "source_url": allowed_ris_url(general.get("DokumentUrl")),
+        "content_html_url": html_url,
         "search_terms": [],
+        "origin": [],
     }
 
 
@@ -231,6 +250,8 @@ def run(
                         index[key] = doc
                     if term not in index[key]["search_terms"]:
                         index[key]["search_terms"].append(term)
+                    if "keyword" not in index[key]["origin"]:
+                        index[key]["origin"].append("keyword")
                 searches.append({
                     "application": app, "term": term, "hits": hits,
                     "returned": len(refs), "pagination_complete": fully_paged,
@@ -244,6 +265,8 @@ def run(
     # History is checked independently. It is NOT assumed to carry document text:
     # even an exhaustive history page list is not a full relevance check.
     history = []
+    # History can surface older decisions first published during this period
+    # even if their decision dates precede the search window.
     for app in applications:
         params = {
             "Anwendung": app,
@@ -254,6 +277,13 @@ def run(
             refs, hits, fully_paged = collect_pages(
                 client, "History", params, max_pages
             )
+            for ref in refs:
+                doc = record_from_reference(ref, app)
+                key = app + ":" + doc["id"]
+                if key not in index:
+                    index[key] = doc
+                if "history" not in index[key]["origin"]:
+                    index[key]["origin"].append("history")
             history.append({
                 "application": app, "total_changes": hits,
                 "returned": len(refs),
@@ -279,7 +309,7 @@ def run(
         "status": "technical_queries_complete" if queries_complete else "incomplete",
         "legal_completeness_claim": False,
         "notice": (
-            "Nur Stichwort-Kandidaten und RIS-Änderungszahlen; keine fachliche "
+            "Nur Stichwort- und RIS-History-Kandidaten; keine fachliche "
             "Beurteilung oder vollständige Durchsicht sämtlicher RIS-Dokumente. "
             "Fehlende Treffer beweisen nicht, dass keine relevante Judikatur vorliegt."
         ),
