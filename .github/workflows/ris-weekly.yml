@@ -5,6 +5,8 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/ris-weekly.yml'
+      - 'ris_reader.py'
+      - 'tests/**'
   workflow_dispatch:
   schedule:
     # Sunday 20:15 UTC; Monday 08:00 Europe/Vienna monitor reads results.
@@ -37,7 +39,7 @@ jobs:
           RIS_USER_AGENT: "RIS-OGD-Reader/0.1 (+https://github.com/th9k5vzvbf-spec/ris-ogd-reader)"
         run: |
           set +e
-          python ris_reader.py --output data/latest.json --max-pages 2
+          python ris_reader.py --output data/latest.json --max-pages 2 --history-max-pages 35
           result=$?
           echo "exit_code=${result}" >> "$GITHUB_OUTPUT"
           exit 0
