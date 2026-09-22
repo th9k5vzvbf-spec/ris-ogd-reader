@@ -1,6 +1,10 @@
 name: RIS OGD weekly reader
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/ris-weekly.yml'
   workflow_dispatch:
   schedule:
     # Sunday 20:15 UTC; Monday 08:00 Europe/Vienna monitor reads results.
