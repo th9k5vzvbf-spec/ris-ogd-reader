@@ -1,34 +1,29 @@
 # RIS-OGD-Reader
 
-Automatisierte, ausschließlich lesende Suche in öffentlichen RIS-Judikaturdaten als Zulieferer für den **Österreichischen Bewertungsmonitor**.
+Ein lesender, auf **OGH, VwGH und VfGH** beschränkter Recherche-Zulieferer für den Österreichischen Bewertungsmonitor. Keine offizielle Anwendung des Bundeskanzleramts.
 
-**Status am 22.09.2026:** Implementierung vorhanden; 13 automatisierte Tests erfolgreich. Zwei echte RIS-Abrufe wurden ausgeführt. Beim zweiten Abruf war die Seitenbegrenzung auf 35 History-Seiten erhöht; die RIS-API lieferte jedoch wiederholte Zeitüberschreitungen. Der gespeicherte letzte Abruf ist daher korrekt als `incomplete` gekennzeichnet. Ein erfolgreicher vollständiger Live-Abruf ist noch nicht nachgewiesen.
+## Gerichtsauswahl und Recherchemethode
 
-## Ablauf
+- **OGH:** Die RIS-Applikation `Justiz` wird mit `Gericht=OGH` abgefragt. Rechtssätze und Entscheidungstexte werden nach definierten Fachbegriffen durchsucht. Eine zusätzliche **OGH-gefilterte Suche nach allen in den letzten zwei Wochen neu veröffentlichten Dokumenten** findet auch Treffer ohne die definierten Suchbegriffe. Ergebnisse anderer Gerichte werden selbst bei einer fehlerhaften API-Antwort zurückgewiesen.
+- **VwGH und VfGH:** Stichwortsuche in Rechtssätzen und Entscheidungstexten; zusätzlich History-Abfrage mit Veröffentlichungen bzw. Änderungen der letzten 14 Tage.
+- **OLG, LG, BG und andere Gerichtsbarkeiten:** nicht Gegenstand des Readers.
 
-- Sonntag 20:15 Uhr UTC: GitHub Actions führt die Abfrage für Justiz, VwGH und VfGH aus.
-- Suche nach einschlägigen Stichworten bei Rechtssätzen **und** Entscheidungstexten, beschränkt auf die jüngsten zwei Wochen im RIS.
-- Zusätzliche RIS-History-Abfrage für denselben Zeitraum. Sie erfasst auch ältere Entscheidungen, die erst kürzlich ins RIS kamen, mit bis zu 35 Ergebnisseiten je Applikation (50 Dokumente pro Seite). Falls mehr Treffer vorliegen oder die RIS-API nicht antwortet, wird die Abfrage ausdrücklich als unvollständig gekennzeichnet.
-- Ergebnisse sind **ungeprüfte Fundstellen**, keine automatisch bewerteten juristischen Aussagen.
-- Die maschinenlesbare Ausgabe liegt nach dem ersten Lauf unter [data/latest.json](data/latest.json), extern abrufbar über https://raw.githubusercontent.com/th9k5vzvbf-spec/ris-ogd-reader/main/data/latest.json .
-- Der österreichische Bewertungsmonitor soll ausschließlich Fundstellen nach eigener inhaltlicher Prüfung zitieren. Wenn der Status auf "incomplete" steht oder legal_completeness_claim falsch ist, darf er keine vollständige Judikaturprüfung behaupten.
+**Wichtige Einschränkung:** Die RIS-History für die Applikation `Justiz` ist nicht nach `Gericht=OGH` eingeschränkt. Deshalb wird die appweite Justiz-History bewusst **nicht** abgerufen. Die stattdessen eingesetzte OGH-gefilterte Recherche erfasst neue Veröffentlichungen; Änderungen an bereits zuvor veröffentlichten OGH-Dokumenten sind damit **nicht lückenlos** abgedeckt. Auch bei erfolgreicher Abfrage ist keine juristische Vollständigkeitsfeststellung zulässig.
 
-## Betrieb und Sicherheit
+## Automatisierter Betrieb
 
-- Nur die offizielle öffentliche OGD-API: https://data.bka.gv.at/ris/api/v2.6/
-- Nur lesende GET-Aufrufe zu den festgelegten Endpunkten **Judikatur** und **History**. Keine frei wählbaren API-Ziele, keine Weiterleitungen, keine Datenbank, keine Uploads, keine Geheimnisse.
-- Mindestens 2,2 Sekunden zwischen RIS-Aufrufen, keine parallelen RIS-Abfragen; maximal zwei Ergebnisseiten pro Stichwortabfrage und gesondert maximal 35 History-Seiten je Applikation (höchstens 1.750 Änderungsdatensätze).
-- Kein externer Python-Paketbedarf. Tests: python -m unittest discover -s tests -v.
-- Start per GitHub **Actions → RIS OGD weekly reader → Run workflow** oder automatisch am Sonntag.
-- Ergebnis inklusive Fehlermeldungen wird auch bei unvollständiger Recherche gespeichert. Ein unvollständiger Lauf wird als fehlgeschlagene GitHub Action angezeigt.
-- Eine öffentliche GitHub-Datei ist **keine geschützte Ablage**. Niemals personenbezogene Gutachten oder vertrauliche Informationen eintragen.
+GitHub Actions startet sonntags um 20:15 UTC und ist zusätzlich manuell auslösbar. Die Daten stehen unter
+[**data/latest.json**](data/latest.json) beziehungsweise öffentlich unter
+https://raw.githubusercontent.com/th9k5vzvbf-spec/ris-ogd-reader/main/data/latest.json.
 
-## Grenzen
+Der öffentliche Raw-Link ist ohne GitHub Pages lesbar. Der nachgelagerte Bewertungsmonitor muss `generated_at_utc`, `status`, `court_scope`, die Anzahl der Rückgaben sowie alle Fehler und unvollständig paginierten Teilabfragen prüfen und jede relevante Entscheidung im Original-RIS inhaltlich verifizieren.
 
-Die Stichwortsuche garantiert keine Vollständigkeit und der Inhalt der Fundstellen wird nicht automatisch rechtlich bewertet. Bei zu vielen Treffern, inkompatiblen RIS-Antworten oder technischen Fehlern zeigt das JSON "incomplete". Die History-Suche ist zusätzlich ein technischer Änderungsnachweis, noch keine semantische Volltextprüfung aller RIS-Änderungen.
+Die API-Aufrufe erfolgen nacheinander mit einem Mindestabstand von 2,2 Sekunden; höchstens zwei Trefferseiten je Stichwort und bis zu 35 Seiten für die drei breiteren Prüfschritte. Bei Fehlern bzw. unvollständiger Paginierung wird der Ergebnisstatus `incomplete` geschrieben und die GitHub Action als fehlgeschlagen angezeigt, statt einen Erfolg vorzutäuschen.
 
-Die Uhrzeit geplanter GitHub-Actions-Läufe ist nicht minutengenau garantiert; die Abfrage findet deshalb vor dem Montagsmonitor statt. Der aktuelle JSON-Status ist über die oben verlinkte öffentliche GitHub-Raw-URL ohne GitHub Pages abrufbar. GitHub Pages ist derzeit nicht aktiviert und für diesen Datentransfer nicht erforderlich.
+Programmtests lokal: `python -m unittest discover -s tests -v`.
 
-## Originalquelle / Attribution
+## Quellen und Nutzungsbedingungen
 
-RIS – Rechtsinformationssystem des Bundes, [Bundeskanzleramt](https://www.ris.bka.gv.at/), OGD-Daten unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de). [Offizielle OGD-Information](https://www.ris.bka.gv.at/UI/Ogd.aspx), [API-Handbuch](https://www.data.gv.at/katalog/dataset/0fb9ae1a-92cb-4ab8-a589-470c16d4fe21/resource/42070d46-01fe-4b36-803f-4af925290f59/download/dokumentation_ogd-ris_api.pdf). Dies ist **kein offizieller RIS-Dienst**.
+Datenquelle: [RIS – Open Government Data](https://www.ris.bka.gv.at/UI/Ogd.aspx), Bundeskanzleramt Österreich, CC BY 4.0. [Dokumentation RIS OGD API v2.6](https://www.data.gv.at/katalog/dataset/0fb9ae1a-92cb-4ab8-a589-470c16d4fe21/resource/42070d46-01fe-4b36-803f-4af925290f59/download/dokumentation_ogd-ris_api.pdf).
+
+Der Reader speichert ausschließlich öffentliche RIS-Fundstellen; keine Zugangsdaten, keine persönlichen Gutachten, keine privaten Dokumente. GitHub Actions ist kein Garant für minutengenaue Ausführung.
