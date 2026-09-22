@@ -1,0 +1,62 @@
+name: RIS OGD weekly reader
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Sunday 20:15 UTC; Monday 08:00 Europe/Vienna monitor reads results.
+    - cron: "15 20 * * 0"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ris-ogd-weekly
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate the reader (no external requests)
+        run: python -m unittest discover -s tests -v
+      - name: Query the official RIS API
+        id: fetch_ris
+        shell: bash
+        env:
+          RIS_USER_AGENT: "RIS-OGD-Reader/0.1 (+https://github.com/th9k5vzvbf-spec/ris-ogd-reader)"
+        run: |
+          set +e
+          python ris_reader.py --output data/latest.json --max-pages 2
+          result=$?
+          echo "exit_code=${result}" >> "$GITHUB_OUTPUT"
+          exit 0
+      - name: Publish the status and candidates, including an incomplete status
+        if: always() && steps.fetch_ris.outcome == 'success'
+        shell: bash
+        run: |
+          if [ ! -f data/latest.json ]; then
+            echo "No machine-readable output was generated."
+            exit 1
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/latest.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update weekly RIS candidate search and retrieval status [skip ci]"
+            git push origin HEAD:main
+          fi
+      - name: Fail if RIS retrieval was incomplete
+        if: always() && steps.fetch_ris.outcome == 'success'
+        shell: bash
+        run: |
+          if [ "${{ steps.fetch_ris.outputs.exit_code }}" != "0" ]; then
+            echo "RIS API result is incomplete. Inspect data/latest.json."
+            exit 1
+          fi
