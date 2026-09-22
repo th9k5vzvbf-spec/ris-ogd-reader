@@ -161,6 +161,60 @@ class ReaderTests(unittest.TestCase):
         self.assertEqual(len(refs), 1)
         self.assertFalse(complete)
 
+    def test_history_pages_are_independent_from_keyword_limit(self):
+        class ThreePageHistory:
+            def __init__(self):
+                self.history_pages = []
+
+            def get(self, endpoint, params):
+                if endpoint == "Judikatur":
+                    return response(1, sample_ref("SEARCH_ONLY"))
+                page = int(params["Seitennummer"])
+                self.history_pages.append(page)
+                start = (page - 1) * 50
+                return response(
+                    150,
+                    [sample_ref(f"HISTORY_{i:03d}") for i in range(start, start + 50)],
+                )
+
+        client = ThreePageHistory()
+        report = run(
+            client, date(2026, 9, 22),
+            applications=("Justiz",), terms=("Verkehrswert",),
+            max_pages=1, history_max_pages=3,
+        )
+        self.assertEqual(client.history_pages, [1, 2, 3])
+        self.assertEqual(report["status"], "technical_queries_complete")
+        self.assertEqual(report["history"][0]["returned"], 150)
+        self.assertEqual(len(report["candidates"]), 151)
+
+    def test_history_page_cap_is_reported_as_incomplete(self):
+        class ThreePageHistory:
+            def get(self, endpoint, params):
+                if endpoint == "Judikatur":
+                    return response(0, [])
+                start = (int(params["Seitennummer"]) - 1) * 50
+                return response(
+                    150,
+                    [sample_ref(f"HISTORY_{i:03d}") for i in range(start, start + 50)],
+                )
+
+        report = run(
+            ThreePageHistory(), date(2026, 9, 22),
+            applications=("Justiz",), terms=("Verkehrswert",),
+            max_pages=1, history_max_pages=2,
+        )
+        self.assertEqual(report["status"], "incomplete")
+        self.assertFalse(report["history"][0]["pagination_complete"])
+
+    def test_reject_unsafe_history_max_pages(self):
+        with self.assertRaises(ValueError):
+            run(
+                FakeClient(), date(2026, 9, 22),
+                applications=("Justiz",), terms=("Verkehrswert",),
+                history_max_pages=99,
+            )
+
     def test_fixed_endpoint_and_api_host(self):
         client = RISClient("ReaderTest/0.1")
         with self.assertRaises(ValueError):
