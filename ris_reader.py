@@ -217,7 +217,10 @@ def run(
     client: RISClient, today: date, *, max_pages: int = 2,
     applications: tuple[str, ...] = APPLICATIONS,
     terms: tuple[str, ...] = TERMS,
+    history_max_pages: int = 35,
 ) -> dict:
+    if history_max_pages < 1 or history_max_pages > 40:
+        raise ValueError("history_max_pages muss zwischen 1 und 40 liegen")
     if max_pages < 1 or max_pages > 5:
         raise ValueError("max_pages muss zwischen 1 und 5 liegen")
     if not applications or any(app not in APPLICATIONS for app in applications):
@@ -275,7 +278,7 @@ def run(
         }
         try:
             refs, hits, fully_paged = collect_pages(
-                client, "History", params, max_pages
+                client, "History", params, history_max_pages
             )
             for ref in refs:
                 doc = record_from_reference(ref, app)
@@ -329,11 +332,13 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", default="data/latest.json")
     parser.add_argument("--max-pages", type=int, default=2)
+    parser.add_argument("--history-max-pages", type=int, default=35)
     parser.add_argument("--date", type=date.fromisoformat, default=date.today())
     args = parser.parse_args(argv)
     agent = os.environ.get("RIS_USER_AGENT", "RIS-OGD-Reader/0.1 (GitHub Actions)")
     client = RISClient(user_agent=agent)
-    report = run(client, args.date, max_pages=args.max_pages)
+    report = run(client, args.date, max_pages=args.max_pages,
+                 history_max_pages=args.history_max_pages)
     output = Path(args.output)
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
