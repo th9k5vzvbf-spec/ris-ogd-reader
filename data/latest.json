@@ -1,0 +1,4439 @@
+{
+  "generated_at_utc": "2026-09-22T17:03:05.228923+00:00",
+  "search_window": {
+    "ris_since": "ZweiWochen",
+    "history_from": "2026-09-08",
+    "history_to": "2026-09-22"
+  },
+  "status": "incomplete",
+  "legal_completeness_claim": false,
+  "notice": "Nur Stichwort- und RIS-History-Kandidaten; keine fachliche Beurteilung oder vollständige Durchsicht sämtlicher RIS-Dokumente. Fehlende Treffer beweisen nicht, dass keine relevante Judikatur vorliegt.",
+  "sources": {
+    "ris_ogd": "https://www.ris.bka.gv.at/UI/Ogd.aspx",
+    "documentation": "https://www.data.gv.at/katalog/dataset/0fb9ae1a-92cb-4ab8-a589-470c16d4fe21"
+  },
+  "queries": [
+    {
+      "application": "Justiz",
+      "term": "Verkehrswert",
+      "hits": 3,
+      "returned": 3,
+      "pagination_complete": true
+    },
+    {
+      "application": "Justiz",
+      "term": "Liegenschaftsbewertung",
+      "hits": 1,
+      "returned": 1,
+      "pagination_complete": true
+    },
+    {
+      "application": "Justiz",
+      "term": "Nutzwert",
+      "hits": 0,
+      "returned": 0,
+      "pagination_complete": true
+    },
+    {
+      "application": "Justiz",
+      "term": "Wohnungseigentum",
+      "hits": 3,
+      "returned": 3,
+      "pagination_complete": true
+    },
+    {
+      "application": "Justiz",
+      "term": "Enteignung",
+      "hits": 0,
+      "returned": 0,
+      "pagination_complete": true
+    },
+    {
+      "application": "Justiz",
+      "term": "Liegenschaftszinssatz",
+      "hits": 0,
+      "returned": 0,
+      "pagination_complete": true
+    },
+    {
+      "application": "Justiz",
+      "term": "Sachverständigengutachten",
+      "hits": 49,
+      "returned": 49,
+      "pagination_complete": true
+    },
+    {
+      "application": "Vwgh",
+      "term": "Verkehrswert",
+      "hits": 0,
+      "returned": 0,
+      "pagination_complete": true
+    },
+    {
+      "application": "Vwgh",
+      "term": "Liegenschaftsbewertung",
+      "hits": 0,
+      "returned": 0,
+      "pagination_complete": true
+    },
+    {
+      "application": "Vwgh",
+      "term": "Nutzwert",
+      "hits": 0,
+      "returned": 0,
+      "pagination_complete": true
+    },
+    {
+      "application": "Vwgh",
+      "term": "Wohnungseigentum",
+      "hits": 0,
+      "returned": 0,
+      "pagination_complete": true
+    },
+    {
+      "application": "Vwgh",
+      "term": "Enteignung",
+      "hits": 0,
+      "returned": 0,
+      "pagination_complete": true
+    },
+    {
+      "application": "Vwgh",
+      "term": "Liegenschaftszinssatz",
+      "hits": 0,
+      "returned": 0,
+      "pagination_complete": true
+    },
+    {
+      "application": "Vwgh",
+      "term": "Sachverständigengutachten",
+      "hits": 2,
+      "returned": 2,
+      "pagination_complete": true
+    },
+    {
+      "application": "Vfgh",
+      "term": "Verkehrswert",
+      "hits": 8,
+      "returned": 8,
+      "pagination_complete": true
+    },
+    {
+      "application": "Vfgh",
+      "term": "Liegenschaftsbewertung",
+      "hits": 0,
+      "returned": 0,
+      "pagination_complete": true
+    },
+    {
+      "application": "Vfgh",
+      "term": "Nutzwert",
+      "hits": 0,
+      "returned": 0,
+      "pagination_complete": true
+    },
+    {
+      "application": "Vfgh",
+      "term": "Wohnungseigentum",
+      "hits": 4,
+      "returned": 4,
+      "pagination_complete": true
+    },
+    {
+      "application": "Vfgh",
+      "term": "Enteignung",
+      "hits": 0,
+      "returned": 0,
+      "pagination_complete": true
+    },
+    {
+      "application": "Vfgh",
+      "term": "Liegenschaftszinssatz",
+      "hits": 0,
+      "returned": 0,
+      "pagination_complete": true
+    },
+    {
+      "application": "Vfgh",
+      "term": "Sachverständigengutachten",
+      "hits": 0,
+      "returned": 0,
+      "pagination_complete": true
+    }
+  ],
+  "history": [
+    {
+      "application": "Justiz",
+      "total_changes": 1097,
+      "returned": 100,
+      "pagination_complete": false
+    },
+    {
+      "application": "Vwgh",
+      "total_changes": 416,
+      "returned": 100,
+      "pagination_complete": false
+    },
+    {
+      "application": "Vfgh",
+      "total_changes": 72,
+      "returned": 72,
+      "pagination_complete": true
+    }
+  ],
+  "errors": [],
+  "candidates": [
+    {
+      "id": "JJT_20260915_OLG0009_03300R00113_26V0000_000",
+      "application": "Justiz",
+      "case_number": "33R113/26v",
+      "court": "OLG Wien",
+      "decision_date": "2026-09-15",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260915_OGH0002_0120OS00105_26X0000_000",
+      "application": "Justiz",
+      "case_number": "12Os105/26x",
+      "court": "OGH",
+      "decision_date": "2026-09-15",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260909_OGH0002_0220DS00006_26S0000_000",
+      "application": "Justiz",
+      "case_number": "22Ds6/26s",
+      "court": "OGH",
+      "decision_date": "2026-09-09",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_2026160017_20260908J00",
+      "application": "Vwgh",
+      "case_number": "Ro 2026/16/0017",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-09-08",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260903_OGH0002_0150OS00078_26Y0000_000",
+      "application": "Justiz",
+      "case_number": "15Os78/26y",
+      "court": "OGH",
+      "decision_date": "2026-09-03",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260903_OGH0002_0150OS00077_26A0000_000",
+      "application": "Justiz",
+      "case_number": "15Os77/26a",
+      "court": "OGH",
+      "decision_date": "2026-09-03",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JJT_20260903_OGH0002_0150OS00067_26F0000_000",
+      "application": "Justiz",
+      "case_number": "15Os67/26f",
+      "court": "OGH",
+      "decision_date": "2026-09-03",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260903_OGH0002_0150OS00046_26T0000_000",
+      "application": "Justiz",
+      "case_number": "15Os46/26t",
+      "court": "OGH",
+      "decision_date": "2026-09-03",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_2026040072_20260827L00",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/04/0072",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-27",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2026040072_20260827L04",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/04/0072",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-27",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2026040072_20260827L03",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/04/0072",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-27",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2026040072_20260827L02",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/04/0072",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-27",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2026040072_20260827L01",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/04/0072",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-27",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_2026180294_20260826L00",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/18/0294",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-26",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_2026100075_20260826L00",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/10/0075",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-26",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_2026070033_20260826L00",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/07/0033",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-26",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_2025100156_20260826L00",
+      "application": "Vwgh",
+      "case_number": "Ra 2025/10/0156",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-26",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_2025100144_20260826L00",
+      "application": "Vwgh",
+      "case_number": "Ra 2025/10/0144",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-26",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_2025040151_20260826L00",
+      "application": "Vwgh",
+      "case_number": "Ra 2025/04/0151",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-26",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_2024040314_20260826L00",
+      "application": "Vwgh",
+      "case_number": "Ra 2024/04/0314",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-26",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_2024040313_20260826L00",
+      "application": "Vwgh",
+      "case_number": "Ra 2024/04/0313",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-26",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_2023220057_20260826L00",
+      "application": "Vwgh",
+      "case_number": "Ra 2023/22/0057",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-26",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2026070033_20260826L03",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/07/0033",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-26",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2026070033_20260826L02",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/07/0033",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-26",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2026070033_20260826L01",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/07/0033",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-26",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2025100144_20260826L04",
+      "application": "Vwgh",
+      "case_number": "Ra 2025/10/0144",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-26",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2025100144_20260826L03",
+      "application": "Vwgh",
+      "case_number": "Ra 2025/10/0144",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-26",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2025100144_20260826L02",
+      "application": "Vwgh",
+      "case_number": "Ra 2025/10/0144",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-26",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2025100144_20260826L01",
+      "application": "Vwgh",
+      "case_number": "Ra 2025/10/0144",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-26",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2025040151_20260826L03",
+      "application": "Vwgh",
+      "case_number": "Ra 2025/04/0151",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-26",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2025040151_20260826L02",
+      "application": "Vwgh",
+      "case_number": "Ra 2025/04/0151",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-26",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2025040151_20260826L01",
+      "application": "Vwgh",
+      "case_number": "Ra 2025/04/0151",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-26",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260826_OLG0459_0090BS00204_26B0000_000",
+      "application": "Justiz",
+      "case_number": "9Bs204/26b",
+      "court": "OLG Linz",
+      "decision_date": "2026-08-26",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_2026180011_20260825F00",
+      "application": "Vwgh",
+      "case_number": "Fr 2026/18/0011",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_2026130086_20260825L00",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/13/0086",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_2026030003_20260825X00",
+      "application": "Vwgh",
+      "case_number": "So 2026/03/0003",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_2025140120_20260825L00",
+      "application": "Vwgh",
+      "case_number": "Ra 2025/14/0120",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260825_OGH0002_0110OS00085_26Y0000_000",
+      "application": "Justiz",
+      "case_number": "11Os85/26y",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JJT_20260825_OGH0002_0110OS00070_26T0000_000",
+      "application": "Justiz",
+      "case_number": "11Os70/26t",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260825_OGH0002_010OBS00082_26W0000_000",
+      "application": "Justiz",
+      "case_number": "10ObS82/26w",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword",
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260825_OGH0002_010OBS00076_26P0000_000",
+      "application": "Justiz",
+      "case_number": "10ObS76/26p",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260825_OGH0002_010OBS00072_26Z0000_000",
+      "application": "Justiz",
+      "case_number": "10ObS72/26z",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260825_OGH0002_010OBS00069_26H0000_000",
+      "application": "Justiz",
+      "case_number": "10ObS69/26h",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260825_OGH0002_010OBS00056_26X0000_000",
+      "application": "Justiz",
+      "case_number": "10ObS56/26x",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260825_OGH0002_010OBS00052_26H0000_000",
+      "application": "Justiz",
+      "case_number": "10ObS52/26h",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260825_OGH0002_010OBS00047_26Y0000_000",
+      "application": "Justiz",
+      "case_number": "10ObS47/26y",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260825_OGH0002_010OBS00043_26K0000_000",
+      "application": "Justiz",
+      "case_number": "10ObS43/26k",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260825_OGH0002_0100OB00024_26S0000_000",
+      "application": "Justiz",
+      "case_number": "10Ob24/26s",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_2026220058_20260824L00",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/22/0058",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-24",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260824_OLG0639_0090BS00252_26S0000_000",
+      "application": "Justiz",
+      "case_number": "9Bs252/26s",
+      "court": "OLG Graz",
+      "decision_date": "2026-08-24",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260821_OLG0639_0010BS00206_26T0000_000",
+      "application": "Justiz",
+      "case_number": "1Bs206/26t",
+      "court": "OLG Graz",
+      "decision_date": "2026-08-21",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260821_OLG0639_0010BS00201_26G0000_000",
+      "application": "Justiz",
+      "case_number": "1Bs201/26g",
+      "court": "OLG Graz",
+      "decision_date": "2026-08-21",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JJT_20260821_OLG0459_0100BS00179_26H0000_000",
+      "application": "Justiz",
+      "case_number": "10Bs179/26h",
+      "court": "OLG Linz",
+      "decision_date": "2026-08-21",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260820_OLG0459_0070BS00125_26W0000_000",
+      "application": "Justiz",
+      "case_number": "7Bs125/26w",
+      "court": "OLG Linz",
+      "decision_date": "2026-08-20",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260819_OLG0459_0100BS00174_26Y0000_000",
+      "application": "Justiz",
+      "case_number": "10Bs174/26y",
+      "court": "OLG Linz",
+      "decision_date": "2026-08-19",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword",
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260819_OLG0459_0070BS00174_26A0000_000",
+      "application": "Justiz",
+      "case_number": "7Bs174/26a",
+      "court": "OLG Linz",
+      "decision_date": "2026-08-19",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260819_OLG0459_0070BS00169_26S0000_000",
+      "application": "Justiz",
+      "case_number": "7Bs169/26s",
+      "court": "OLG Linz",
+      "decision_date": "2026-08-19",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260819_OLG0459_0070BS00167_26X0000_000",
+      "application": "Justiz",
+      "case_number": "7Bs167/26x",
+      "court": "OLG Linz",
+      "decision_date": "2026-08-19",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword",
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260819_OLG0459_0070BS00155_26G0000_000",
+      "application": "Justiz",
+      "case_number": "7Bs155/26g",
+      "court": "OLG Linz",
+      "decision_date": "2026-08-19",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260819_OGH0002_008OBA00026_26W0000_000",
+      "application": "Justiz",
+      "case_number": "8ObA26/26w",
+      "court": "OGH",
+      "decision_date": "2026-08-19",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260819_OGH0002_008OBA00024_26A0000_000",
+      "application": "Justiz",
+      "case_number": "8ObA24/26a",
+      "court": "OGH",
+      "decision_date": "2026-08-19",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260819_OGH0002_0080OB00135_25Y0000_000",
+      "application": "Justiz",
+      "case_number": "8Ob135/25y",
+      "court": "OGH",
+      "decision_date": "2026-08-19",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260819_OGH0002_0080OB00115_25G0000_000",
+      "application": "Justiz",
+      "case_number": "8Ob115/25g",
+      "court": "OGH",
+      "decision_date": "2026-08-19",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260819_OGH0002_0080OB00107_25F0000_000",
+      "application": "Justiz",
+      "case_number": "8Ob107/25f",
+      "court": "OGH",
+      "decision_date": "2026-08-19",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260819_OGH0002_0080OB00074_26D0000_000",
+      "application": "Justiz",
+      "case_number": "8Ob74/26d",
+      "court": "OGH",
+      "decision_date": "2026-08-19",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260819_OGH0002_0080OB00070_26S0000_000",
+      "application": "Justiz",
+      "case_number": "8Ob70/26s",
+      "court": "OGH",
+      "decision_date": "2026-08-19",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260819_OGH0002_0080OB00061_26T0000_000",
+      "application": "Justiz",
+      "case_number": "8Ob61/26t",
+      "court": "OGH",
+      "decision_date": "2026-08-19",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260819_OGH0002_0080OB00058_26A0000_000",
+      "application": "Justiz",
+      "case_number": "8Ob58/26a",
+      "court": "OGH",
+      "decision_date": "2026-08-19",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_2026060186_20260818L00",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/06/0186",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-18",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260818_OLG0639_0090BS00221_26G0000_000",
+      "application": "Justiz",
+      "case_number": "9Bs221/26g",
+      "court": "OLG Graz",
+      "decision_date": "2026-08-18",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260818_OLG0639_0090BS00188_26D0000_000",
+      "application": "Justiz",
+      "case_number": "9Bs188/26d",
+      "court": "OLG Graz",
+      "decision_date": "2026-08-18",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260818_OLG0639_0090BS00174_26W0000_000",
+      "application": "Justiz",
+      "case_number": "9Bs174/26w",
+      "court": "OLG Graz",
+      "decision_date": "2026-08-18",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword",
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260818_OLG0639_0090BS00072_26W0000_000",
+      "application": "Justiz",
+      "case_number": "9Bs72/26w",
+      "court": "OLG Graz",
+      "decision_date": "2026-08-18",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260818_OGH0002_0070OB00130_26G0000_000",
+      "application": "Justiz",
+      "case_number": "7Ob130/26g",
+      "court": "OGH",
+      "decision_date": "2026-08-18",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260818_OGH0002_0070OB00117_26W0000_000",
+      "application": "Justiz",
+      "case_number": "7Ob117/26w",
+      "court": "OGH",
+      "decision_date": "2026-08-18",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260818_OGH0002_0070OB00114_26D0000_000",
+      "application": "Justiz",
+      "case_number": "7Ob114/26d",
+      "court": "OGH",
+      "decision_date": "2026-08-18",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260818_OGH0002_0070OB00103_26M0000_000",
+      "application": "Justiz",
+      "case_number": "7Ob103/26m",
+      "court": "OGH",
+      "decision_date": "2026-08-18",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260818_OGH0002_0070OB00099_26Y0000_000",
+      "application": "Justiz",
+      "case_number": "7Ob99/26y",
+      "court": "OGH",
+      "decision_date": "2026-08-18",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260818_OGH0002_0070OB00085_26I0000_000",
+      "application": "Justiz",
+      "case_number": "7Ob85/26i",
+      "court": "OGH",
+      "decision_date": "2026-08-18",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260818_OGH0002_0070OB00081_26A0000_000",
+      "application": "Justiz",
+      "case_number": "7Ob81/26a",
+      "court": "OGH",
+      "decision_date": "2026-08-18",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword",
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260818_OGH0002_0070OB00073_26Z0000_000",
+      "application": "Justiz",
+      "case_number": "7Ob73/26z",
+      "court": "OGH",
+      "decision_date": "2026-08-18",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260818_OGH0002_0070OB00067_26T0000_000",
+      "application": "Justiz",
+      "case_number": "7Ob67/26t",
+      "court": "OGH",
+      "decision_date": "2026-08-18",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260818_OGH0002_0070OB00060_26P0000_000",
+      "application": "Justiz",
+      "case_number": "7Ob60/26p",
+      "court": "OGH",
+      "decision_date": "2026-08-18",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260818_OGH0002_0070OB00022_26Z0000_000",
+      "application": "Justiz",
+      "case_number": "7Ob22/26z",
+      "court": "OGH",
+      "decision_date": "2026-08-18",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260818_OGH0002_0070OB00002_26H0000_000",
+      "application": "Justiz",
+      "case_number": "7Ob2/26h",
+      "court": "OGH",
+      "decision_date": "2026-08-18",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_2026160031_20260817L00",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/16/0031",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-17",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_2026120008_20260817L00",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/12/0008",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-17",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_2026120001_20260817L00",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/12/0001",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-17",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_2025040035_20260817L00",
+      "application": "Vwgh",
+      "case_number": "Ra 2025/04/0035",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-17",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2026120008_20260817L06",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/12/0008",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-17",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2026120008_20260817L05",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/12/0008",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-17",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2026120008_20260817L04",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/12/0008",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-17",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2026120008_20260817L03",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/12/0008",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-17",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2026120008_20260817L02",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/12/0008",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-17",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2026120008_20260817L01",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/12/0008",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-17",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2026120001_20260817L05",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/12/0001",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-17",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2026120001_20260817L04",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/12/0001",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-17",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2026120001_20260817L03",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/12/0001",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-17",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2026120001_20260817L02",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/12/0001",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-17",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2026120001_20260817L01",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/12/0001",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-17",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2025040035_20260817L03",
+      "application": "Vwgh",
+      "case_number": "Ra 2025/04/0035",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-17",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2025040035_20260817L02",
+      "application": "Vwgh",
+      "case_number": "Ra 2025/04/0035",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-17",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2025040035_20260817L01",
+      "application": "Vwgh",
+      "case_number": "Ra 2025/04/0035",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-17",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260817_OLG0459_0100BS00177_26I0000_000",
+      "application": "Justiz",
+      "case_number": "10Bs177/26i",
+      "court": "OLG Linz",
+      "decision_date": "2026-08-17",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260817_OLG0459_0100BS00167_26V0000_000",
+      "application": "Justiz",
+      "case_number": "10Bs167/26v",
+      "court": "OLG Linz",
+      "decision_date": "2026-08-17",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260817_OLG0459_0090BS00194_26G0000_000",
+      "application": "Justiz",
+      "case_number": "9Bs194/26g",
+      "court": "OLG Linz",
+      "decision_date": "2026-08-17",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260817_OLG0459_0090BS00188_26Z0000_000",
+      "application": "Justiz",
+      "case_number": "9Bs188/26z",
+      "court": "OLG Linz",
+      "decision_date": "2026-08-17",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260817_OLG0459_0090BS00187_26B0000_000",
+      "application": "Justiz",
+      "case_number": "9Bs187/26b",
+      "court": "OLG Linz",
+      "decision_date": "2026-08-17",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260817_OLG0459_0080BS00104_26I0000_000",
+      "application": "Justiz",
+      "case_number": "8Bs104/26i",
+      "court": "OLG Linz",
+      "decision_date": "2026-08-17",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260817_OLG0459_0080BS00099_26D0000_000",
+      "application": "Justiz",
+      "case_number": "8Bs99/26d",
+      "court": "OLG Linz",
+      "decision_date": "2026-08-17",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260817_OLG0459_0080BS00093_26X0000_000",
+      "application": "Justiz",
+      "case_number": "8Bs93/26x",
+      "court": "OLG Linz",
+      "decision_date": "2026-08-17",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_2026090053_20260814L00",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/09/0053",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-14",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260813_OLG0639_0090BS00219_26P0000_000",
+      "application": "Justiz",
+      "case_number": "9Bs219/26p",
+      "court": "OLG Graz",
+      "decision_date": "2026-08-13",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JJT_20260813_OLG0459_0090BS00183_26I0000_000",
+      "application": "Justiz",
+      "case_number": "9Bs183/26i",
+      "court": "OLG Linz",
+      "decision_date": "2026-08-13",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260813_OLG0459_0090BS00164_26W0000_000",
+      "application": "Justiz",
+      "case_number": "9Bs164/26w",
+      "court": "OLG Linz",
+      "decision_date": "2026-08-13",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_2026200449_20260812L00",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/20/0449",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-12",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_2026200391_20260812L00",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/20/0391",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-12",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_2026180280_20260812L00",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/18/0280",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-12",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword",
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_2026180094_20260812L00",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/18/0094",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-12",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2026180280_20260812L02",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/18/0280",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-12",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2026180280_20260812L01",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/18/0280",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-12",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260812_OLG0459_0100BS00168_26S0000_000",
+      "application": "Justiz",
+      "case_number": "10Bs168/26s",
+      "court": "OLG Linz",
+      "decision_date": "2026-08-12",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260812_OLG0459_0100BS00165_26Z0000_000",
+      "application": "Justiz",
+      "case_number": "10Bs165/26z",
+      "court": "OLG Linz",
+      "decision_date": "2026-08-12",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260812_OLG0459_0070BS00160_26T0000_000",
+      "application": "Justiz",
+      "case_number": "7Bs160/26t",
+      "court": "OLG Linz",
+      "decision_date": "2026-08-12",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260812_OGH0002_0060OB00107_25S0000_000",
+      "application": "Justiz",
+      "case_number": "6Ob107/25s",
+      "court": "OGH",
+      "decision_date": "2026-08-12",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Wohnungseigentum"
+      ],
+      "origin": [
+        "keyword",
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_2026070061_20260811L00",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/07/0061",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-11",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_2025030046_20260811L00",
+      "application": "Vwgh",
+      "case_number": "Ra 2025/03/0046",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-11",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JJT_20260811_OLG0459_0070BS00165_26B0000_000",
+      "application": "Justiz",
+      "case_number": "7Bs165/26b",
+      "court": "OLG Linz",
+      "decision_date": "2026-08-11",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260811_OLG0459_0070BS00149_26Z0000_000",
+      "application": "Justiz",
+      "case_number": "7Bs149/26z",
+      "court": "OLG Linz",
+      "decision_date": "2026-08-11",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword",
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260811_OLG0459_0070BS00146_26H0000_000",
+      "application": "Justiz",
+      "case_number": "7Bs146/26h",
+      "court": "OLG Linz",
+      "decision_date": "2026-08-11",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_2026180235_20260810L00",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/18/0235",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-10",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_2026180013_20260810F00",
+      "application": "Vwgh",
+      "case_number": "Fr 2026/18/0013",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-10",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_2025140087_20260806L00",
+      "application": "Vwgh",
+      "case_number": "Ra 2025/14/0087",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-06",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_2024160071_20260806L00",
+      "application": "Vwgh",
+      "case_number": "Ra 2024/16/0071",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-06",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2025140087_20260806L01",
+      "application": "Vwgh",
+      "case_number": "Ra 2025/14/0087",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-06",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260806_OLG0459_0090BS00167_26M0000_000",
+      "application": "Justiz",
+      "case_number": "9Bs167/26m",
+      "court": "OLG Linz",
+      "decision_date": "2026-08-06",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260805_OLG0639_0090BS00157_26W0000_000",
+      "application": "Justiz",
+      "case_number": "9Bs157/26w",
+      "court": "OLG Graz",
+      "decision_date": "2026-08-05",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JJT_20260805_OLG0459_0090BS00153_26B0000_000",
+      "application": "Justiz",
+      "case_number": "9Bs153/26b",
+      "court": "OLG Linz",
+      "decision_date": "2026-08-05",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260805_OLG0459_0090BS00152_26F0000_000",
+      "application": "Justiz",
+      "case_number": "9Bs152/26f",
+      "court": "OLG Linz",
+      "decision_date": "2026-08-05",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_2026160017_20260804J00",
+      "application": "Vwgh",
+      "case_number": "Ro 2026/16/0017",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-04",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_2026140214_20260804L00",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/14/0214",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-04",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_2026140015_20260804L00",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/14/0015",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-08-04",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260804_OLG0459_0080BS00094_26V0000_000",
+      "application": "Justiz",
+      "case_number": "8Bs94/26v",
+      "court": "OLG Linz",
+      "decision_date": "2026-08-04",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260803_OLG0639_0090BS00201_26S0000_000",
+      "application": "Justiz",
+      "case_number": "9Bs201/26s",
+      "court": "OLG Graz",
+      "decision_date": "2026-08-03",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JJT_20260803_OLG0459_0070BS00156_26D0000_000",
+      "application": "Justiz",
+      "case_number": "7Bs156/26d",
+      "court": "OLG Linz",
+      "decision_date": "2026-08-03",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JJT_20260729_OLG0459_0110RA00032_26V0000_000",
+      "application": "Justiz",
+      "case_number": "11Ra32/26v",
+      "court": "OLG Linz",
+      "decision_date": "2026-07-29",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JWT_2024040014_20260727J00",
+      "application": "Vwgh",
+      "case_number": "Ro 2024/04/0014",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-07-27",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2024040014_20260727J02",
+      "application": "Vwgh",
+      "case_number": "Ro 2024/04/0014",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-07-27",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2024040014_20260727J01",
+      "application": "Vwgh",
+      "case_number": "Ro 2024/04/0014",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-07-27",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260727_OLG0459_0100BS00157_26Y0000_000",
+      "application": "Justiz",
+      "case_number": "10Bs157/26y",
+      "court": "OLG Linz",
+      "decision_date": "2026-07-27",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JJT_20260727_OLG0459_0090BS00169_26F0000_000",
+      "application": "Justiz",
+      "case_number": "9Bs169/26f",
+      "court": "OLG Linz",
+      "decision_date": "2026-07-27",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JWT_2024120086_20260722L00",
+      "application": "Vwgh",
+      "case_number": "Ra 2024/12/0086",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-07-22",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_2023120025_20260722L00",
+      "application": "Vwgh",
+      "case_number": "Ra 2023/12/0025",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-07-22",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2024120086_20260722L02",
+      "application": "Vwgh",
+      "case_number": "Ra 2024/12/0086",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-07-22",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2024120086_20260722L01",
+      "application": "Vwgh",
+      "case_number": "Ra 2024/12/0086",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-07-22",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2023120025_20260722L04",
+      "application": "Vwgh",
+      "case_number": "Ra 2023/12/0025",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-07-22",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2023120025_20260722L03",
+      "application": "Vwgh",
+      "case_number": "Ra 2023/12/0025",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-07-22",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2023120025_20260722L02",
+      "application": "Vwgh",
+      "case_number": "Ra 2023/12/0025",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-07-22",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2023120025_20260722L01",
+      "application": "Vwgh",
+      "case_number": "Ra 2023/12/0025",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-07-22",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260722_OLG0819_0230RS00015_26S0000_000",
+      "application": "Justiz",
+      "case_number": "23Rs15/26s",
+      "court": "OLG Innsbruck",
+      "decision_date": "2026-07-22",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JJT_20260722_OLG0819_0230RS00011_26B0000_000",
+      "application": "Justiz",
+      "case_number": "23Rs11/26b",
+      "court": "OLG Innsbruck",
+      "decision_date": "2026-07-22",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JJT_20260716_OLG0639_0060RS00039_26S0000_000",
+      "application": "Justiz",
+      "case_number": "6Rs39/26s",
+      "court": "OLG Graz",
+      "decision_date": "2026-07-16",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JJT_20260716_OLG0639_0060RS00037_26X0000_000",
+      "application": "Justiz",
+      "case_number": "6Rs37/26x",
+      "court": "OLG Graz",
+      "decision_date": "2026-07-16",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword",
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260716_OLG0639_0060RS00033_26H0000_000",
+      "application": "Justiz",
+      "case_number": "6Rs33/26h",
+      "court": "OLG Graz",
+      "decision_date": "2026-07-16",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JJT_20260716_OLG0639_0060RS00026_26D0000_000",
+      "application": "Justiz",
+      "case_number": "6Rs26/26d",
+      "court": "OLG Graz",
+      "decision_date": "2026-07-16",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword",
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260706_OLG0819_0060BS00271_25S0000_000",
+      "application": "Justiz",
+      "case_number": "6Bs271/25s",
+      "court": "OLG Innsbruck",
+      "decision_date": "2026-07-06",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260706_OLG0819_0060BS00182_26D0000_000",
+      "application": "Justiz",
+      "case_number": "6Bs182/26d",
+      "court": "OLG Innsbruck",
+      "decision_date": "2026-07-06",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_2026130029_20260703L00",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/13/0029",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-07-03",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2026130029_20260703L01",
+      "application": "Vwgh",
+      "case_number": "Ra 2026/13/0029",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-07-03",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFT_20260701_26V00051_00",
+      "application": "Vfgh",
+      "case_number": "V51/2026",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-07-01",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFT_20260701_26G00139_00",
+      "application": "Vfgh",
+      "case_number": "G139/2026",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-07-01",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFT_20260701_26G00127_00",
+      "application": "Vfgh",
+      "case_number": "G127/2026",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-07-01",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFT_20260701_26G00018_00",
+      "application": "Vfgh",
+      "case_number": "G18/2026",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-07-01",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFT_20260701_26G00015_00",
+      "application": "Vfgh",
+      "case_number": "G15/2026",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-07-01",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFT_20260701_26E01397_00",
+      "application": "Vfgh",
+      "case_number": "E1397/2026",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-07-01",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFT_20260701_26E00976_00",
+      "application": "Vfgh",
+      "case_number": "E976/2026 ua",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-07-01",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFT_20260701_25V00050_00",
+      "application": "Vfgh",
+      "case_number": "V50/2025",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-07-01",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFT_20260701_25G00117_00",
+      "application": "Vfgh",
+      "case_number": "G117/2025",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-07-01",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFT_20260701_25E03811_00",
+      "application": "Vfgh",
+      "case_number": "E3811/2025 ua",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-07-01",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFR_20260701_26V00051_01",
+      "application": "Vfgh",
+      "case_number": "V51/2026",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-07-01",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFR_20260701_26G00139_01",
+      "application": "Vfgh",
+      "case_number": "G139/2026",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-07-01",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFR_20260701_26G00127_01",
+      "application": "Vfgh",
+      "case_number": "G127/2026",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-07-01",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFR_20260701_26G00018_01",
+      "application": "Vfgh",
+      "case_number": "G18/2026",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-07-01",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFR_20260701_26G00015_01",
+      "application": "Vfgh",
+      "case_number": "G15/2026",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-07-01",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFR_20260701_26E01397_01",
+      "application": "Vfgh",
+      "case_number": "E1397/2026",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-07-01",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFR_20260701_25V00050_01",
+      "application": "Vfgh",
+      "case_number": "V50/2025",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-07-01",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFR_20260701_25G00117_01",
+      "application": "Vfgh",
+      "case_number": "G117/2025",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-07-01",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFR_20260701_25E03811_01",
+      "application": "Vfgh",
+      "case_number": "E3811/2025 ua, E976/2026 ua",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-07-01",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260701_OLG0639_0070RS00041_26T0000_000",
+      "application": "Justiz",
+      "case_number": "7Rs41/26t",
+      "court": "OLG Graz",
+      "decision_date": "2026-07-01",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JJT_20260701_OLG0639_0070RS00033_26S0000_000",
+      "application": "Justiz",
+      "case_number": "7Rs33/26s",
+      "court": "OLG Graz",
+      "decision_date": "2026-07-01",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JJT_20260701_OLG0639_0070RS00029_26B0000_000",
+      "application": "Justiz",
+      "case_number": "7Rs29/26b",
+      "court": "OLG Graz",
+      "decision_date": "2026-07-01",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JJT_20260630_OLG0819_0110BS00166_26P0000_000",
+      "application": "Justiz",
+      "case_number": "11Bs166/26p",
+      "court": "OLG Innsbruck",
+      "decision_date": "2026-06-30",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260629_OLG0819_0070BS00096_26I0000_000",
+      "application": "Justiz",
+      "case_number": "7Bs96/26i",
+      "court": "OLG Innsbruck",
+      "decision_date": "2026-06-29",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260629_OLG0819_0060BS00074_26X0000_000",
+      "application": "Justiz",
+      "case_number": "6Bs74/26x",
+      "court": "OLG Innsbruck",
+      "decision_date": "2026-06-29",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2025130139_20260625L09",
+      "application": "Vwgh",
+      "case_number": "Ra 2025/13/0139",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-06-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2025130139_20260625L08",
+      "application": "Vwgh",
+      "case_number": "Ra 2025/13/0139",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-06-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_2025130139_20260625L07",
+      "application": "Vwgh",
+      "case_number": "Ra 2025/13/0139",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "2026-06-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260625_OLG0819_0070BS00136_26X0000_000",
+      "application": "Justiz",
+      "case_number": "7Bs136/26x",
+      "court": "OLG Innsbruck",
+      "decision_date": "2026-06-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260624_OLG0819_0060BS00105_26F0000_001",
+      "application": "Justiz",
+      "case_number": "6Bs105/26f",
+      "court": "OLG Innsbruck",
+      "decision_date": "2026-06-24",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260624_OLG0819_0060BS00103_26M0000_000",
+      "application": "Justiz",
+      "case_number": "6Bs103/26m",
+      "court": "OLG Innsbruck",
+      "decision_date": "2026-06-24",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JFT_20260619_25V00044_00",
+      "application": "Vfgh",
+      "case_number": "V44/2025",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-19",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFT_20260619_25G00178_00",
+      "application": "Vfgh",
+      "case_number": "G178/2025",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-19",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFR_20260619_25V00044_01",
+      "application": "Vfgh",
+      "case_number": "V44/2025",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-19",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFR_20260619_25G00178_01",
+      "application": "Vfgh",
+      "case_number": "G178/2025",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-19",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260619_OLG0819_00400R00014_26D0000_000",
+      "application": "Justiz",
+      "case_number": "4R14/26d",
+      "court": "OLG Innsbruck",
+      "decision_date": "2026-06-19",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JJT_20260619_OLG0639_00300R00051_26H0000_000",
+      "application": "Justiz",
+      "case_number": "3R51/26h",
+      "court": "OLG Graz",
+      "decision_date": "2026-06-19",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260617_OLG0639_00400R00046_26F0000_000",
+      "application": "Justiz",
+      "case_number": "4R46/26f",
+      "court": "OLG Graz",
+      "decision_date": "2026-06-17",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword",
+        "history"
+      ]
+    },
+    {
+      "id": "JFT_20260616_26W_III00001_00",
+      "application": "Vfgh",
+      "case_number": "WIII1/2026",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-16",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFT_20260616_26V00024_00",
+      "application": "Vfgh",
+      "case_number": "V24/2026",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-16",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFT_20260616_26G00121_00",
+      "application": "Vfgh",
+      "case_number": "G121/2026 ua",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-16",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFT_20260616_26G00105_00",
+      "application": "Vfgh",
+      "case_number": "G105/2026",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-16",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFT_20260616_26G00033_00",
+      "application": "Vfgh",
+      "case_number": "G33/2026",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-16",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFT_20260616_26E01192_00",
+      "application": "Vfgh",
+      "case_number": "E1192/2026",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-16",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFT_20260616_26E01091_00",
+      "application": "Vfgh",
+      "case_number": "E1091/2026",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-16",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFT_20260616_26E00639_00",
+      "application": "Vfgh",
+      "case_number": "E639/2026 ua",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-16",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFT_20260616_26E00174_00",
+      "application": "Vfgh",
+      "case_number": "E174/2026",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-16",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFT_20260616_25G00195_00",
+      "application": "Vfgh",
+      "case_number": "G195/2025",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-16",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFT_20260616_25G00160_00",
+      "application": "Vfgh",
+      "case_number": "G160/2025",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-16",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFR_20260616_26W_III00001_01",
+      "application": "Vfgh",
+      "case_number": "WIII1/2026",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-16",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFR_20260616_26V00024_01",
+      "application": "Vfgh",
+      "case_number": "V24/2026",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-16",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFR_20260616_26G00121_01",
+      "application": "Vfgh",
+      "case_number": "G121/2026 ua",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-16",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFR_20260616_26G00105_01",
+      "application": "Vfgh",
+      "case_number": "G105/2026",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-16",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFR_20260616_26G00033_01",
+      "application": "Vfgh",
+      "case_number": "G33/2026",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-16",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFR_20260616_26E01192_01",
+      "application": "Vfgh",
+      "case_number": "E1192/2026",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-16",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFR_20260616_26E01091_01",
+      "application": "Vfgh",
+      "case_number": "E1091/2026",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-16",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFR_20260616_26E00639_01",
+      "application": "Vfgh",
+      "case_number": "E639/2026 ua",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-16",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFR_20260616_26E00174_01",
+      "application": "Vfgh",
+      "case_number": "E174/2026",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-16",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFR_20260616_25G00195_01",
+      "application": "Vfgh",
+      "case_number": "G195/2025",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-16",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFR_20260616_25G00160_01",
+      "application": "Vfgh",
+      "case_number": "G160/2025",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-16",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFT_20260615_26W_I00001_00",
+      "application": "Vfgh",
+      "case_number": "WI1/2026",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-15",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFT_20260615_26V00045_00",
+      "application": "Vfgh",
+      "case_number": "V45/2026",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-15",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFT_20260615_26V00011_00",
+      "application": "Vfgh",
+      "case_number": "V11/2026 ua",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-15",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Verkehrswert",
+        "Wohnungseigentum"
+      ],
+      "origin": [
+        "keyword",
+        "history"
+      ]
+    },
+    {
+      "id": "JFT_20260615_26V00009_00",
+      "application": "Vfgh",
+      "case_number": "V9/2026",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-15",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Verkehrswert",
+        "Wohnungseigentum"
+      ],
+      "origin": [
+        "keyword",
+        "history"
+      ]
+    },
+    {
+      "id": "JFT_20260615_25V00266_00",
+      "application": "Vfgh",
+      "case_number": "V266/2025",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-15",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Verkehrswert",
+        "Wohnungseigentum"
+      ],
+      "origin": [
+        "keyword",
+        "history"
+      ]
+    },
+    {
+      "id": "JFT_20260615_25E04180_00",
+      "application": "Vfgh",
+      "case_number": "E4180/2025",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-15",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFT_20260615_25E04139_00",
+      "application": "Vfgh",
+      "case_number": "E4139/2025",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-15",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFT_20260615_25E02635_00",
+      "application": "Vfgh",
+      "case_number": "E2635/2025",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-15",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFR_20260615_26W_I00001_01",
+      "application": "Vfgh",
+      "case_number": "WI1/2026",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-15",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFR_20260615_26V00045_01",
+      "application": "Vfgh",
+      "case_number": "V45/2026",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-15",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFR_20260615_26V00011_01",
+      "application": "Vfgh",
+      "case_number": "V11/2026 ua",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-15",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Verkehrswert"
+      ],
+      "origin": [
+        "keyword",
+        "history"
+      ]
+    },
+    {
+      "id": "JFR_20260615_26V00009_01",
+      "application": "Vfgh",
+      "case_number": "V9/2026",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-15",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Verkehrswert"
+      ],
+      "origin": [
+        "keyword",
+        "history"
+      ]
+    },
+    {
+      "id": "JFR_20260615_25V00266_01",
+      "application": "Vfgh",
+      "case_number": "V266/2025",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-15",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Verkehrswert"
+      ],
+      "origin": [
+        "keyword",
+        "history"
+      ]
+    },
+    {
+      "id": "JFR_20260615_25E04180_01",
+      "application": "Vfgh",
+      "case_number": "E4180/2025",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-15",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFR_20260615_25E02635_01",
+      "application": "Vfgh",
+      "case_number": "E2635/2025",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-06-15",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260615_OLG0639_00600R00026_26D0000_000",
+      "application": "Justiz",
+      "case_number": "6R26/26d",
+      "court": "OLG Graz",
+      "decision_date": "2026-06-15",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JJT_20260608_OLG0009_0310BS00120_26P0000_000",
+      "application": "Justiz",
+      "case_number": "31Bs120/26p (31 Bs 121/26k)",
+      "court": "OLG Wien",
+      "decision_date": "2026-06-08",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JJT_20260608_OLG0009_00600R00209_26P0000_000",
+      "application": "Justiz",
+      "case_number": "6R209/26p",
+      "court": "OLG Wien",
+      "decision_date": "2026-06-08",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Wohnungseigentum"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JJT_20260605_OLG0009_0210BS00107_26B0000_000",
+      "application": "Justiz",
+      "case_number": "21Bs107/26b",
+      "court": "OLG Wien",
+      "decision_date": "2026-06-05",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260603_OLG0819_00100R00008_26Z0000_000",
+      "application": "Justiz",
+      "case_number": "1R8/26z",
+      "court": "OLG Innsbruck",
+      "decision_date": "2026-06-03",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JJT_20260603_OLG0009_0300BS00165_26Y0000_000",
+      "application": "Justiz",
+      "case_number": "30Bs165/26y",
+      "court": "OLG Wien",
+      "decision_date": "2026-06-03",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260603_OLG0009_0190BS00149_26I0000_000",
+      "application": "Justiz",
+      "case_number": "19Bs149/26i",
+      "court": "OLG Wien",
+      "decision_date": "2026-06-03",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260603_OLG0009_0190BS00144_26D0000_000",
+      "application": "Justiz",
+      "case_number": "19Bs144/26d",
+      "court": "OLG Wien",
+      "decision_date": "2026-06-03",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JJT_20260603_OLG0009_0190BS00129_26Y0000_000",
+      "application": "Justiz",
+      "case_number": "19Bs129/26y",
+      "court": "OLG Wien",
+      "decision_date": "2026-06-03",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260603_OLG0009_0190BS00096_26W0000_000",
+      "application": "Justiz",
+      "case_number": "19Bs96/26w",
+      "court": "OLG Wien",
+      "decision_date": "2026-06-03",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260528_OLG0819_0070BS00130_26I0000_000",
+      "application": "Justiz",
+      "case_number": "7Bs130/26i",
+      "court": "OLG Innsbruck",
+      "decision_date": "2026-05-28",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260528_OLG0639_0070RS00022_26Y0000_000",
+      "application": "Justiz",
+      "case_number": "7Rs22/26y",
+      "court": "OLG Graz",
+      "decision_date": "2026-05-28",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JJT_20260528_OLG0009_01400R00020_26B0000_000",
+      "application": "Justiz",
+      "case_number": "14R20/26b",
+      "court": "OLG Wien",
+      "decision_date": "2026-05-28",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260528_OLG0009_0090RS00014_26H0000_000",
+      "application": "Justiz",
+      "case_number": "9Rs14/26h",
+      "court": "OLG Wien",
+      "decision_date": "2026-05-28",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JJT_20260527_OLG0459_00100R00044_26K0000_000",
+      "application": "Justiz",
+      "case_number": "1R44/26k",
+      "court": "OLG Linz",
+      "decision_date": "2026-05-27",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JJT_20260526_OLG0009_01300R00174_25S0000_000",
+      "application": "Justiz",
+      "case_number": "13R174/25s",
+      "court": "OLG Wien",
+      "decision_date": "2026-05-26",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JJT_20260521_OLG0009_0180BS00036_26I0000_000",
+      "application": "Justiz",
+      "case_number": "18Bs36/26i",
+      "court": "OLG Wien",
+      "decision_date": "2026-05-21",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JJT_20260520_OLG0459_00200R00062_26I0000_000",
+      "application": "Justiz",
+      "case_number": "2R62/26i",
+      "court": "OLG Linz",
+      "decision_date": "2026-05-20",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JJT_20260519_OLG0009_00100R00045_26H0000_000",
+      "application": "Justiz",
+      "case_number": "1R45/26h",
+      "court": "OLG Wien",
+      "decision_date": "2026-05-19",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260505_OLG0819_0120BS00021_26X0000_000",
+      "application": "Justiz",
+      "case_number": "12Bs21/26x",
+      "court": "OLG Innsbruck",
+      "decision_date": "2026-05-05",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JJT_20260429_OLG0009_0080RA00016_26W0000_000",
+      "application": "Justiz",
+      "case_number": "8Ra16/26w",
+      "court": "OLG Wien",
+      "decision_date": "2026-04-29",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260428_OLG0009_0100RS00017_26G0000_000",
+      "application": "Justiz",
+      "case_number": "10Rs17/26g",
+      "court": "OLG Wien",
+      "decision_date": "2026-04-28",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JJT_20260428_OLG0009_0090RS00124_25H0000_000",
+      "application": "Justiz",
+      "case_number": "9Rs124/25h",
+      "court": "OLG Wien",
+      "decision_date": "2026-04-28",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JJT_20260312_OLG0639_0070RS00012_26B0000_000",
+      "application": "Justiz",
+      "case_number": "7Rs12/26b",
+      "court": "OLG Graz",
+      "decision_date": "2026-03-12",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JFT_20260302_25V00220_00",
+      "application": "Vfgh",
+      "case_number": "V220/2025 ua",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-03-02",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Verkehrswert",
+        "Wohnungseigentum"
+      ],
+      "origin": [
+        "keyword",
+        "history"
+      ]
+    },
+    {
+      "id": "JFR_20260302_25V00220_01",
+      "application": "Vfgh",
+      "case_number": "V220/2025 ua",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2026-03-02",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Verkehrswert"
+      ],
+      "origin": [
+        "keyword",
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260225_OLG0819_00100R00177_25A0000_000",
+      "application": "Justiz",
+      "case_number": "1R177/25a",
+      "court": "OLG Innsbruck",
+      "decision_date": "2026-02-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JJT_20260223_OLG0009_0210BS00048_25Z0000_000",
+      "application": "Justiz",
+      "case_number": "21Bs48/25z",
+      "court": "OLG Wien",
+      "decision_date": "2026-02-23",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword",
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20260204_OLG0819_01200R00001_26A0000_000",
+      "application": "Justiz",
+      "case_number": "12R1/26a",
+      "court": "OLG Innsbruck",
+      "decision_date": "2026-02-04",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JJT_20260131_OLG0009_00300R00139_25W0000_000",
+      "application": "Justiz",
+      "case_number": "3R139/25w",
+      "court": "OLG Wien",
+      "decision_date": "2026-01-31",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFT_20251216_25E01957_00",
+      "application": "Vfgh",
+      "case_number": "E1957/2025 ua",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2025-12-16",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFR_20251216_25E01957_01",
+      "application": "Vfgh",
+      "case_number": "E1957/2025 ua",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2025-12-16",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20251211_OLG0459_00400R00146_25F0000_000",
+      "application": "Justiz",
+      "case_number": "4R146/25f",
+      "court": "OLG Linz",
+      "decision_date": "2025-12-11",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword",
+        "history"
+      ]
+    },
+    {
+      "id": "JFT_20251210_25E02597_00",
+      "application": "Vfgh",
+      "case_number": "E2597/2025 ua",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2025-12-10",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFR_20251210_25E02597_01",
+      "application": "Vfgh",
+      "case_number": "E2597/2025 ua",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2025-12-10",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFT_20251128_25E03428_00",
+      "application": "Vfgh",
+      "case_number": "E3428/2025 ua, G169/2025 ua",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2025-11-28",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFR_20251128_25E03428_01",
+      "application": "Vfgh",
+      "case_number": "E3428/2025 ua, G169/2025 ua",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2025-11-28",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20251113_OLG0819_00100R00148_25M0000_000",
+      "application": "Justiz",
+      "case_number": "1R148/25m",
+      "court": "OLG Innsbruck",
+      "decision_date": "2025-11-13",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JJT_20251028_OLG0009_0210BS00359_25K0000_000",
+      "application": "Justiz",
+      "case_number": "21Bs359/25k",
+      "court": "OLG Wien",
+      "decision_date": "2025-10-28",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20250805_OLG0009_0210BS00251_25B0000_000",
+      "application": "Justiz",
+      "case_number": "21Bs251/25b",
+      "court": "OLG Wien",
+      "decision_date": "2025-08-05",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20250717_OLG0819_00100R00077_25W0000_000",
+      "application": "Justiz",
+      "case_number": "1R77/25w",
+      "court": "OLG Innsbruck",
+      "decision_date": "2025-07-17",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JJT_20250328_OLG0009_0070RA00020_25Z0000_000",
+      "application": "Justiz",
+      "case_number": "7Ra20/25z",
+      "court": "OLG Wien",
+      "decision_date": "2025-03-28",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20250220_OLG0819_00100R00162_24V0000_000",
+      "application": "Justiz",
+      "case_number": "1R162/24v",
+      "court": "OLG Innsbruck",
+      "decision_date": "2025-02-20",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Verkehrswert",
+        "Liegenschaftsbewertung"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JJT_20250210_OLG0009_0300BS00034_25G0000_000",
+      "application": "Justiz",
+      "case_number": "30Bs34/25g",
+      "court": "OLG Wien",
+      "decision_date": "2025-02-10",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JJT_20250206_OLG0819_00100R00009_25W0000_000",
+      "application": "Justiz",
+      "case_number": "1R9/25w",
+      "court": "OLG Innsbruck",
+      "decision_date": "2025-02-06",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Wohnungseigentum"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JJT_20241120_OLG0009_01100R00180_24G0000_000",
+      "application": "Justiz",
+      "case_number": "11R180/24g",
+      "court": "OLG Wien",
+      "decision_date": "2024-11-20",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Verkehrswert"
+      ],
+      "origin": [
+        "keyword",
+        "history"
+      ]
+    },
+    {
+      "id": "JFT_20230919_23G00304_00",
+      "application": "Vfgh",
+      "case_number": "G304/2023",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2023-09-19",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFR_20230919_23G00304_01",
+      "application": "Vfgh",
+      "case_number": "G304/2023",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2023-09-19",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFT_20230309_22E03309_00",
+      "application": "Vfgh",
+      "case_number": "E3309/2022",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2023-03-09",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JFR_20230309_22E03309_01",
+      "application": "Vfgh",
+      "case_number": "E3309/2022, E2185/2022, E2830/2022, E116/2023, E2149/2023, E3857/2023, E715/2023, E4139/2025",
+      "court": "Verfassungsgerichtshof (VfGH)",
+      "decision_date": "2023-03-09",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_20040318_OLG0009_00100R00021_04X0000_000",
+      "application": "Justiz",
+      "case_number": "1R21/04x",
+      "court": "OLG Wien",
+      "decision_date": "2004-03-18",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Verkehrswert"
+      ],
+      "origin": [
+        "keyword"
+      ]
+    },
+    {
+      "id": "JWT_1980000395_19800620X00",
+      "application": "Vwgh",
+      "case_number": "0395/80",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "1980-06-20",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_1980000395_19800620X05",
+      "application": "Vwgh",
+      "case_number": "0395/80",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "1980-06-20",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_1980000395_19800620X04",
+      "application": "Vwgh",
+      "case_number": "0395/80",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "1980-06-20",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_1980000395_19800620X03",
+      "application": "Vwgh",
+      "case_number": "0395/80",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "1980-06-20",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_1980000395_19800620X02",
+      "application": "Vwgh",
+      "case_number": "0395/80",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "1980-06-20",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_1980000395_19800620X01",
+      "application": "Vwgh",
+      "case_number": "0395/80",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "1980-06-20",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_1978001340_19790608X00",
+      "application": "Vwgh",
+      "case_number": "1340/78",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "1979-06-08",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_1978001340_19790608X01",
+      "application": "Vwgh",
+      "case_number": "1340/78",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "1979-06-08",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JJT_19781128_OGH0002_0040OB00389_7800000_000",
+      "application": "Justiz",
+      "case_number": "4Ob389/78",
+      "court": "OGH",
+      "decision_date": "1978-11-28",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_1970001919_19720127X00",
+      "application": "Vwgh",
+      "case_number": "1919/70",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "1972-01-27",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_1970001919_19720127X01",
+      "application": "Vwgh",
+      "case_number": "1919/70",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "1972-01-27",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_1968000479_19681108X00",
+      "application": "Vwgh",
+      "case_number": "0479/68",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "1968-11-08",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_1968000479_19681108X01",
+      "application": "Vwgh",
+      "case_number": "0479/68",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "1968-11-08",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_1965001564_19660325X00",
+      "application": "Vwgh",
+      "case_number": "1564/65",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "1966-03-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_1965001564_19660325X03",
+      "application": "Vwgh",
+      "case_number": "1564/65",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "1966-03-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_1965001564_19660325X02",
+      "application": "Vwgh",
+      "case_number": "1564/65",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "1966-03-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_1965001564_19660325X01",
+      "application": "Vwgh",
+      "case_number": "1564/65",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "1966-03-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWT_1963002179_19650212X00",
+      "application": "Vwgh",
+      "case_number": "2179/63",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "1965-02-12",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_1963002179_19650212X02",
+      "application": "Vwgh",
+      "case_number": "2179/63",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "1965-02-12",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    },
+    {
+      "id": "JWR_1963002179_19650212X01",
+      "application": "Vwgh",
+      "case_number": "2179/63",
+      "court": "Verwaltungsgerichtshof (VwGH)",
+      "decision_date": "1965-02-12",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "history"
+      ]
+    }
+  ]
+}
