@@ -20,7 +20,7 @@ def sample_ref(document_id="TEST_DOCUMENT_01"):
     return {
         "Data": {
             "Metadaten": {
-                "Technisch": {"ID": document_id, "Organ": "TEST COURT"},
+                "Technisch": {"ID": document_id, "Organ": "OGH"},
                 "Allgemein": {
                     "DokumentUrl": "https://www.ris.bka.gv.at/Dokument.wxe?Abfrage=Justiz"
                 },
@@ -111,7 +111,7 @@ class ReaderTests(unittest.TestCase):
         record = record_from_reference(sample_ref(), "Justiz")
         self.assertEqual(record["id"], "TEST_DOCUMENT_01")
         self.assertEqual(record["case_number"], "TEST-GZ-01")
-        self.assertEqual(record["court"], "TEST COURT")
+        self.assertEqual(record["court"], "OGH")
         self.assertEqual(record["decision_date"], "2026-09-08")
         self.assertEqual(record["content_html_url"], "https://data.bka.gv.at/test")
         fixture = sample_ref()
@@ -134,16 +134,21 @@ class ReaderTests(unittest.TestCase):
         )
         self.assertEqual(report["status"], "technical_queries_complete")
         self.assertEqual(len(report["candidates"]), 1)
-        self.assertEqual(set(report["candidates"][0]["origin"]), {"keyword", "history"})
+        self.assertEqual(set(report["candidates"][0]["origin"]), {"keyword", "recent_ogh"})
         self.assertFalse(report["legal_completeness_claim"])
         self.assertEqual(client.calls[0][1]["Dokumenttyp.SucheInRechtssaetzen"], "true")
         self.assertEqual(client.calls[0][1]["Dokumenttyp.SucheInEntscheidungstexten"], "true")
-        self.assertEqual(client.calls[1][1]["Anwendung"], "Justiz")
+        self.assertEqual(client.calls[0][1]["Gericht"], "OGH")
+        self.assertEqual(client.calls[1][0], "Judikatur")
+        self.assertEqual(client.calls[1][1]["Gericht"], "OGH")
+        self.assertTrue(all(endpoint != "History" for endpoint, _ in client.calls))
+        self.assertEqual(report["history"][0]["mode"], "ogh_recent_publications")
+        self.assertFalse(report["ogh_older_document_changes_exhaustive"])
 
     def test_failed_history_must_mark_incomplete(self):
         report = run(
             FakeClient(fail_history=True), date(2026, 9, 22),
-            applications=("Justiz",), terms=("Nutzwert",), max_pages=1,
+            applications=("Vwgh",), terms=("Nutzwert",), max_pages=1,
         )
         self.assertEqual(report["status"], "incomplete")
         self.assertEqual(len(report["errors"]), 1)
@@ -180,7 +185,7 @@ class ReaderTests(unittest.TestCase):
         client = ThreePageHistory()
         report = run(
             client, date(2026, 9, 22),
-            applications=("Justiz",), terms=("Verkehrswert",),
+            applications=("Vwgh",), terms=("Verkehrswert",),
             max_pages=1, history_max_pages=3,
         )
         self.assertEqual(client.history_pages, [1, 2, 3])
@@ -201,7 +206,7 @@ class ReaderTests(unittest.TestCase):
 
         report = run(
             ThreePageHistory(), date(2026, 9, 22),
-            applications=("Justiz",), terms=("Verkehrswert",),
+            applications=("Vwgh",), terms=("Verkehrswert",),
             max_pages=1, history_max_pages=2,
         )
         self.assertEqual(report["status"], "incomplete")
@@ -214,6 +219,48 @@ class ReaderTests(unittest.TestCase):
                 applications=("Justiz",), terms=("Verkehrswert",),
                 history_max_pages=99,
             )
+
+    def test_ogh_scope_excludes_olg_and_lower_courts(self):
+        class LowerCourtClient:
+            def __init__(self):
+                self.calls = []
+
+            def get(self, endpoint, params):
+                self.calls.append((endpoint, dict(params)))
+                fixture = sample_ref("OLG_ONLY_001")
+                fixture["Data"]["Metadaten"]["Technisch"]["Organ"] = "OLG Wien"
+                return response(1, fixture)
+
+        client = LowerCourtClient()
+        report = run(
+            client, date(2026, 9, 22),
+            applications=("Justiz",), terms=("Verkehrswert",),
+            max_pages=1, history_max_pages=1,
+        )
+        self.assertEqual(report["status"], "incomplete")
+        self.assertEqual(report["candidates"], [])
+        self.assertEqual(len(report["errors"]), 2)
+        self.assertEqual([call[0] for call in client.calls],
+                         ["Judikatur", "Judikatur"])
+        self.assertTrue(all(
+            params["Gericht"] == "OGH" for _, params in client.calls
+        ))
+
+    def test_all_court_scopes_exclude_justiz_history(self):
+        client = FakeClient()
+        run(client, date(2026, 9, 22), applications=("Justiz", "Vwgh", "Vfgh"),
+            terms=("Nutzwert",), max_pages=1, history_max_pages=1)
+        court_filters = [
+            params["Gericht"]
+            for endpoint, params in client.calls
+            if endpoint == "Judikatur" and params["Applikation"] == "Justiz"
+        ]
+        self.assertEqual(court_filters, ["OGH", "OGH"])
+        histories = [
+            params["Anwendung"]
+            for endpoint, params in client.calls if endpoint == "History"
+        ]
+        self.assertEqual(histories, ["Vwgh", "Vfgh"])
 
     def test_fixed_endpoint_and_api_host(self):
         client = RISClient("ReaderTest/0.1")
