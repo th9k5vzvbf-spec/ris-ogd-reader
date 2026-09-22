@@ -242,12 +242,16 @@ def run(
                 "Dokumenttyp.SucheInEntscheidungstexten": "true",
                 "ImRisSeit": "ZweiWochen",
             }
+            if app == "Justiz":
+                params["Gericht"] = "OGH"
             try:
                 refs, hits, fully_paged = collect_pages(
                     client, "Judikatur", params, max_pages
                 )
                 for ref in refs:
                     doc = record_from_reference(ref, app)
+                    if app == "Justiz" and doc["court"] != "OGH":
+                        raise RISResponseError("Justiz-Antwort enthält ein Nicht-OGH-Gericht")
                     key = app + ":" + doc["id"]
                     if key not in index:
                         index[key] = doc
@@ -265,12 +269,56 @@ def run(
                     "application": app, "term": term,
                     "pagination_complete": False,
                 })
-    # History is checked independently. It is NOT assumed to carry document text:
-    # even an exhaustive history page list is not a full relevance check.
+    # History only accepts an application-wide filter. The Justiz database
+    # includes OLG/LG/BG; instead of downloading those records, request only
+    # recently ADDED OGH documents through the court-filtered Judikatur endpoint.
+    # This does NOT exhaustively cover edits to previously published OGH documents.
     history = []
-    # History can surface older decisions first published during this period
-    # even if their decision dates precede the search window.
+    if "Justiz" in applications:
+        ogh_params = {
+            "Applikation": "Justiz", "Gericht": "OGH",
+            "Dokumenttyp.SucheInRechtssaetzen": "true",
+            "Dokumenttyp.SucheInEntscheidungstexten": "true",
+            "ImRisSeit": "ZweiWochen",
+        }
+        try:
+            refs, hits, fully_paged = collect_pages(
+                client, "Judikatur", ogh_params, history_max_pages
+            )
+            for ref in refs:
+                doc = record_from_reference(ref, "Justiz")
+                if doc["court"] != "OGH":
+                    raise RISResponseError(
+                        "OGH-Sammelabfrage enthält ein Nicht-OGH-Gericht"
+                    )
+                key = "Justiz:" + doc["id"]
+                if key not in index:
+                    index[key] = doc
+                if "recent_ogh" not in index[key]["origin"]:
+                    index[key]["origin"].append("recent_ogh")
+            history.append({
+                "application": "Justiz",
+                "mode": "ogh_recent_publications",
+                "total_recent_publications": hits,
+                "returned": len(refs),
+                "pagination_complete": fully_paged,
+                "older_document_modifications_exhaustive": False,
+            })
+        except RISResponseError as exc:
+            errors.append({
+                "application": "Justiz",
+                "recent_ogh": True, "reason": str(exc),
+            })
+            history.append({
+                "application": "Justiz",
+                "mode": "ogh_recent_publications",
+                "pagination_complete": False,
+                "older_document_modifications_exhaustive": False,
+            })
+    # For VfGH/VwGH, History is already restricted to exactly the court.
     for app in applications:
+        if app == "Justiz":
+            continue
         params = {
             "Anwendung": app,
             "AenderungenVon": date_from,
@@ -314,8 +362,14 @@ def run(
         "notice": (
             "Nur Stichwort- und RIS-History-Kandidaten; keine fachliche "
             "Beurteilung oder vollständige Durchsicht sämtlicher RIS-Dokumente. "
-            "Fehlende Treffer beweisen nicht, dass keine relevante Judikatur vorliegt."
+            "Fehlende Treffer beweisen nicht, dass keine relevante Judikatur vorliegt. "
+            "Die OGH-Abfrage umfasst neu im RIS veröffentlichte Dokumente; "
+            "Änderungen an bereits zuvor veröffentlichten OGH-Dokumenten "
+            "werden nicht vollständig geprüft."
         ),
+        "court_scope": ["OGH", "VwGH", "VfGH"],
+        "justiz_history_mode": "ogh_recent_publications_only",
+        "ogh_older_document_changes_exhaustive": False,
         "sources": {"ris_ogd": SOURCE, "documentation": DOCS},
         "queries": searches,
         "history": history,
