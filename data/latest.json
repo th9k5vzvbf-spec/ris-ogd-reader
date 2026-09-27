@@ -1,13 +1,20 @@
 {
-  "generated_at_utc": "2026-09-22T17:23:52.164592+00:00",
+  "generated_at_utc": "2026-09-27T20:26:54.603550+00:00",
   "search_window": {
     "ris_since": "ZweiWochen",
-    "history_from": "2026-09-08",
-    "history_to": "2026-09-22"
+    "history_from": "2026-09-13",
+    "history_to": "2026-09-27"
   },
   "status": "incomplete",
   "legal_completeness_claim": false,
-  "notice": "Nur Stichwort- und RIS-History-Kandidaten; keine fachliche Beurteilung oder vollständige Durchsicht sämtlicher RIS-Dokumente. Fehlende Treffer beweisen nicht, dass keine relevante Judikatur vorliegt.",
+  "notice": "Nur Stichwort- und RIS-History-Kandidaten; keine fachliche Beurteilung oder vollständige Durchsicht sämtlicher RIS-Dokumente. Fehlende Treffer beweisen nicht, dass keine relevante Judikatur vorliegt. Die OGH-Abfrage umfasst neu im RIS veröffentlichte Dokumente; Änderungen an bereits zuvor veröffentlichten OGH-Dokumenten werden nicht vollständig geprüft.",
+  "court_scope": [
+    "OGH",
+    "VwGH",
+    "VfGH"
+  ],
+  "justiz_history_mode": "ogh_recent_publications_only",
+  "ogh_older_document_changes_exhaustive": false,
   "sources": {
     "ris_ogd": "https://www.ris.bka.gv.at/UI/Ogd.aspx",
     "documentation": "https://www.data.gv.at/katalog/dataset/0fb9ae1a-92cb-4ab8-a589-470c16d4fe21"
@@ -16,15 +23,15 @@
     {
       "application": "Justiz",
       "term": "Verkehrswert",
-      "hits": 3,
-      "returned": 3,
+      "hits": 0,
+      "returned": 0,
       "pagination_complete": true
     },
     {
       "application": "Justiz",
       "term": "Liegenschaftsbewertung",
-      "hits": 1,
-      "returned": 1,
+      "hits": 0,
+      "returned": 0,
       "pagination_complete": true
     },
     {
@@ -37,8 +44,8 @@
     {
       "application": "Justiz",
       "term": "Wohnungseigentum",
-      "hits": 3,
-      "returned": 3,
+      "hits": 2,
+      "returned": 2,
       "pagination_complete": true
     },
     {
@@ -58,8 +65,8 @@
     {
       "application": "Justiz",
       "term": "Sachverständigengutachten",
-      "hits": 49,
-      "returned": 49,
+      "hits": 5,
+      "returned": 5,
       "pagination_complete": true
     },
     {
@@ -107,8 +114,8 @@
     {
       "application": "Vwgh",
       "term": "Sachverständigengutachten",
-      "hits": 2,
-      "returned": 2,
+      "hits": 1,
+      "returned": 1,
       "pagination_complete": true
     },
     {
@@ -142,7 +149,9 @@
     {
       "application": "Vfgh",
       "term": "Enteignung",
-      "pagination_complete": false
+      "hits": 0,
+      "returned": 0,
+      "pagination_complete": true
     },
     {
       "application": "Vfgh",
@@ -162,7 +171,11 @@
   "history": [
     {
       "application": "Justiz",
-      "pagination_complete": false
+      "mode": "ogh_recent_publications",
+      "total_recent_publications": 150,
+      "returned": 150,
+      "pagination_complete": true,
+      "older_document_modifications_exhaustive": false
     },
     {
       "application": "Vwgh",
@@ -174,16 +187,6 @@
     }
   ],
   "errors": [
-    {
-      "application": "Vfgh",
-      "term": "Enteignung",
-      "reason": "RIS-Anfrage fehlgeschlagen: TimeoutError"
-    },
-    {
-      "application": "Justiz",
-      "history": true,
-      "reason": "RIS-Anfrage fehlgeschlagen: TimeoutError"
-    },
     {
       "application": "Vwgh",
       "history": true,
@@ -197,6 +200,240 @@
   ],
   "candidates": [
     {
+      "id": "JJT_20260917_OGH0002_0070OB00147_26G0000_000",
+      "application": "Justiz",
+      "case_number": "7Ob147/26g",
+      "court": "OGH",
+      "decision_date": "2026-09-17",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260917_OGH0002_0070OB00143_26V0000_000",
+      "application": "Justiz",
+      "case_number": "7Ob143/26v",
+      "court": "OGH",
+      "decision_date": "2026-09-17",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260915_OGH0002_0120OS00105_26X0000_000",
+      "application": "Justiz",
+      "case_number": "12Os105/26x",
+      "court": "OGH",
+      "decision_date": "2026-09-15",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260915_OGH0002_0120OS00084_26H0000_000",
+      "application": "Justiz",
+      "case_number": "12Os84/26h",
+      "court": "OGH",
+      "decision_date": "2026-09-15",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260915_OGH0002_0040OB00050_26W0000_000",
+      "application": "Justiz",
+      "case_number": "4Ob50/26w",
+      "court": "OGH",
+      "decision_date": "2026-09-15",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260915_OGH0002_0020OB00141_26P0000_000",
+      "application": "Justiz",
+      "case_number": "2Ob141/26p",
+      "court": "OGH",
+      "decision_date": "2026-09-15",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260909_OGH0002_0220DS00006_26S0000_000",
+      "application": "Justiz",
+      "case_number": "22Ds6/26s",
+      "court": "OGH",
+      "decision_date": "2026-09-09",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260908_OGH0002_0110NS00051_26B0000_000",
+      "application": "Justiz",
+      "case_number": "11Ns51/26b",
+      "court": "OGH",
+      "decision_date": "2026-09-08",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260903_OGH0002_0150OS00095_26Y0000_000",
+      "application": "Justiz",
+      "case_number": "15Os95/26y",
+      "court": "OGH",
+      "decision_date": "2026-09-03",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260903_OGH0002_0150OS00093_26D0000_000",
+      "application": "Justiz",
+      "case_number": "15Os93/26d",
+      "court": "OGH",
+      "decision_date": "2026-09-03",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260903_OGH0002_0150OS00092_26G0000_000",
+      "application": "Justiz",
+      "case_number": "15Os92/26g",
+      "court": "OGH",
+      "decision_date": "2026-09-03",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260903_OGH0002_0150OS00090_26P0000_000",
+      "application": "Justiz",
+      "case_number": "15Os90/26p",
+      "court": "OGH",
+      "decision_date": "2026-09-03",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260903_OGH0002_0150OS00089_26S0000_000",
+      "application": "Justiz",
+      "case_number": "15Os89/26s",
+      "court": "OGH",
+      "decision_date": "2026-09-03",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260903_OGH0002_0150OS00087_26X0000_000",
+      "application": "Justiz",
+      "case_number": "15Os87/26x",
+      "court": "OGH",
+      "decision_date": "2026-09-03",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260903_OGH0002_0150OS00082_26M0000_000",
+      "application": "Justiz",
+      "case_number": "15Os82/26m",
+      "court": "OGH",
+      "decision_date": "2026-09-03",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260903_OGH0002_0150OS00081_26I0000_000",
+      "application": "Justiz",
+      "case_number": "15Os81/26i",
+      "court": "OGH",
+      "decision_date": "2026-09-03",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260903_OGH0002_0150OS00080_26T0000_000",
+      "application": "Justiz",
+      "case_number": "15Os80/26t",
+      "court": "OGH",
+      "decision_date": "2026-09-03",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260903_OGH0002_0150OS00078_26Y0000_000",
+      "application": "Justiz",
+      "case_number": "15Os78/26y",
+      "court": "OGH",
+      "decision_date": "2026-09-03",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
       "id": "JJT_20260903_OGH0002_0150OS00077_26A0000_000",
       "application": "Justiz",
       "case_number": "15Os77/26a",
@@ -208,7 +445,274 @@
         "Sachverständigengutachten"
       ],
       "origin": [
-        "keyword"
+        "keyword",
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260903_OGH0002_0150OS00076_26D0000_000",
+      "application": "Justiz",
+      "case_number": "15Os76/26d",
+      "court": "OGH",
+      "decision_date": "2026-09-03",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260903_OGH0002_0150OS00069_26Z0000_000",
+      "application": "Justiz",
+      "case_number": "15Os69/26z",
+      "court": "OGH",
+      "decision_date": "2026-09-03",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260903_OGH0002_0150OS00068_26B0000_000",
+      "application": "Justiz",
+      "case_number": "15Os68/26b",
+      "court": "OGH",
+      "decision_date": "2026-09-03",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260903_OGH0002_0150OS00067_26F0000_000",
+      "application": "Justiz",
+      "case_number": "15Os67/26f",
+      "court": "OGH",
+      "decision_date": "2026-09-03",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260903_OGH0002_0150OS00064_26I0000_000",
+      "application": "Justiz",
+      "case_number": "15Os64/26i",
+      "court": "OGH",
+      "decision_date": "2026-09-03",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260903_OGH0002_0150OS00052_26Z0000_000",
+      "application": "Justiz",
+      "case_number": "15Os52/26z (15Os53/26x)",
+      "court": "OGH",
+      "decision_date": "2026-09-03",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260903_OGH0002_0150OS00046_26T0000_000",
+      "application": "Justiz",
+      "case_number": "15Os46/26t",
+      "court": "OGH",
+      "decision_date": "2026-09-03",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260903_OGH0002_0150OS00039_26P0000_000",
+      "application": "Justiz",
+      "case_number": "15Os39/26p",
+      "court": "OGH",
+      "decision_date": "2026-09-03",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260903_OGH0002_0150OS00029_26T0000_000",
+      "application": "Justiz",
+      "case_number": "15Os29/26t",
+      "court": "OGH",
+      "decision_date": "2026-09-03",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260903_OGH0002_0150OS00003_26V0000_000",
+      "application": "Justiz",
+      "case_number": "15Os3/26v",
+      "court": "OGH",
+      "decision_date": "2026-09-03",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260827_OGH0002_0010OB00116_26D0000_000",
+      "application": "Justiz",
+      "case_number": "1Ob116/26d",
+      "court": "OGH",
+      "decision_date": "2026-08-27",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260827_OGH0002_0010OB00111_26V0000_000",
+      "application": "Justiz",
+      "case_number": "1Ob111/26v",
+      "court": "OGH",
+      "decision_date": "2026-08-27",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Sachverständigengutachten"
+      ],
+      "origin": [
+        "keyword",
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260827_OGH0002_0010OB00106_26H0000_000",
+      "application": "Justiz",
+      "case_number": "1Ob106/26h",
+      "court": "OGH",
+      "decision_date": "2026-08-27",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260827_OGH0002_0010OB00105_26M0000_000",
+      "application": "Justiz",
+      "case_number": "1Ob105/26m",
+      "court": "OGH",
+      "decision_date": "2026-08-27",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260827_OGH0002_0010OB00103_26T0000_000",
+      "application": "Justiz",
+      "case_number": "1Ob103/26t",
+      "court": "OGH",
+      "decision_date": "2026-08-27",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260827_OGH0002_0010OB00101_26Y0000_000",
+      "application": "Justiz",
+      "case_number": "1Ob101/26y",
+      "court": "OGH",
+      "decision_date": "2026-08-27",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260827_OGH0002_0010OB00089_26H0000_000",
+      "application": "Justiz",
+      "case_number": "1Ob89/26h",
+      "court": "OGH",
+      "decision_date": "2026-08-27",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [
+        "Wohnungseigentum"
+      ],
+      "origin": [
+        "keyword",
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260827_OGH0002_0010OB00087_26I0000_000",
+      "application": "Justiz",
+      "case_number": "1Ob87/26i",
+      "court": "OGH",
+      "decision_date": "2026-08-27",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260827_OGH0002_0010OB00078_26S0000_000",
+      "application": "Justiz",
+      "case_number": "1Ob78/26s",
+      "court": "OGH",
+      "decision_date": "2026-08-27",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260827_OGH0002_0010OB00063_26K0000_000",
+      "application": "Justiz",
+      "case_number": "1Ob63/26k",
+      "court": "OGH",
+      "decision_date": "2026-08-27",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
       ]
     },
     {
@@ -223,7 +727,203 @@
         "Sachverständigengutachten"
       ],
       "origin": [
-        "keyword"
+        "keyword",
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260825_OGH0002_0110OS00083_26D0000_000",
+      "application": "Justiz",
+      "case_number": "11Os83/26d",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260825_OGH0002_0110OS00082_26G0000_000",
+      "application": "Justiz",
+      "case_number": "11Os82/26g",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260825_OGH0002_0110OS00077_26X0000_000",
+      "application": "Justiz",
+      "case_number": "11Os77/26x",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260825_OGH0002_0110OS00076_26Z0000_000",
+      "application": "Justiz",
+      "case_number": "11Os76/26z",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260825_OGH0002_0110OS00074_26F0000_000",
+      "application": "Justiz",
+      "case_number": "11Os74/26f",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260825_OGH0002_0110OS00072_26M0000_000",
+      "application": "Justiz",
+      "case_number": "11Os72/26m",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260825_OGH0002_0110OS00071_26I0000_000",
+      "application": "Justiz",
+      "case_number": "11Os71/26i",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260825_OGH0002_0110OS00070_26T0000_000",
+      "application": "Justiz",
+      "case_number": "11Os70/26t",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260825_OGH0002_0110OS00067_26A0000_000",
+      "application": "Justiz",
+      "case_number": "11Os67/26a",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260825_OGH0002_0110OS00065_26G0000_000",
+      "application": "Justiz",
+      "case_number": "11Os65/26g",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260825_OGH0002_0110OS00061_26V0000_000",
+      "application": "Justiz",
+      "case_number": "11Os61/26v",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260825_OGH0002_0110OS00059_26Z0000_000",
+      "application": "Justiz",
+      "case_number": "11Os59/26z",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260825_OGH0002_0110OS00029_26P0000_000",
+      "application": "Justiz",
+      "case_number": "11Os29/26p",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260825_OGH0002_0110OS00026_26X0000_000",
+      "application": "Justiz",
+      "case_number": "11Os26/26x",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260825_OGH0002_010OBS00083_26T0000_000",
+      "application": "Justiz",
+      "case_number": "10ObS83/26t",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
       ]
     },
     {
@@ -238,67 +938,632 @@
         "Sachverständigengutachten"
       ],
       "origin": [
-        "keyword"
+        "keyword",
+        "recent_ogh"
       ]
     },
     {
-      "id": "JJT_20260821_OLG0639_0010BS00201_26G0000_000",
+      "id": "JJT_20260825_OGH0002_010OBS00080_26A0000_000",
       "application": "Justiz",
-      "case_number": "1Bs201/26g",
-      "court": "OLG Graz",
+      "case_number": "10ObS80/26a",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260825_OGH0002_010OBS00079_26D0000_000",
+      "application": "Justiz",
+      "case_number": "10ObS79/26d",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260825_OGH0002_010OBS00076_26P0000_000",
+      "application": "Justiz",
+      "case_number": "10ObS76/26p",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260825_OGH0002_010OBS00072_26Z0000_000",
+      "application": "Justiz",
+      "case_number": "10ObS72/26z",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260825_OGH0002_010OBS00070_26F0000_000",
+      "application": "Justiz",
+      "case_number": "10ObS70/26f",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260825_OGH0002_010OBS00069_26H0000_000",
+      "application": "Justiz",
+      "case_number": "10ObS69/26h",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260825_OGH0002_010OBS00066_26T0000_000",
+      "application": "Justiz",
+      "case_number": "10ObS66/26t",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260825_OGH0002_010OBS00056_26X0000_000",
+      "application": "Justiz",
+      "case_number": "10ObS56/26x",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260825_OGH0002_010OBS00052_26H0000_000",
+      "application": "Justiz",
+      "case_number": "10ObS52/26h",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260825_OGH0002_010OBS00051_26M0000_000",
+      "application": "Justiz",
+      "case_number": "10ObS51/26m",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260825_OGH0002_010OBS00047_26Y0000_000",
+      "application": "Justiz",
+      "case_number": "10ObS47/26y",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260825_OGH0002_010OBS00043_26K0000_000",
+      "application": "Justiz",
+      "case_number": "10ObS43/26k",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260825_OGH0002_0100OB00043_26K0000_000",
+      "application": "Justiz",
+      "case_number": "10Ob43/26k",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260825_OGH0002_0100OB00024_26S0000_000",
+      "application": "Justiz",
+      "case_number": "10Ob24/26s",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJR_20260825_OGH0002_010OBS00083_26T0000_000",
+      "application": "Justiz",
+      "case_number": "10ObS83/26t",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJR_20260825_OGH0002_010OBS00056_26X0000_000",
+      "application": "Justiz",
+      "case_number": "10ObS56/26x",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJR_20260825_OGH0002_010OBS00052_26H0000_000",
+      "application": "Justiz",
+      "case_number": "10ObS52/26h",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJR_20260825_OGH0002_010OBS00047_26Y0000_000",
+      "application": "Justiz",
+      "case_number": "10ObS47/26y",
+      "court": "OGH",
+      "decision_date": "2026-08-25",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260821_OGH0002_0120NS00063_26Z0000_000",
+      "application": "Justiz",
+      "case_number": "12Ns63/26z",
+      "court": "OGH",
       "decision_date": "2026-08-21",
       "source_url": null,
       "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
+      "search_terms": [],
       "origin": [
-        "keyword"
+        "recent_ogh"
       ]
     },
     {
-      "id": "JJT_20260819_OLG0459_0100BS00174_26Y0000_000",
+      "id": "JJT_20260821_OGH0002_0120NS00062_26B0000_000",
       "application": "Justiz",
-      "case_number": "10Bs174/26y",
-      "court": "OLG Linz",
+      "case_number": "12Ns62/26b",
+      "court": "OGH",
+      "decision_date": "2026-08-21",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260819_OGH0002_008OBS00002_26S0000_000",
+      "application": "Justiz",
+      "case_number": "8ObS2/26s",
+      "court": "OGH",
       "decision_date": "2026-08-19",
       "source_url": null,
       "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
+      "search_terms": [],
       "origin": [
-        "keyword"
+        "recent_ogh"
       ]
     },
     {
-      "id": "JJT_20260819_OLG0459_0070BS00167_26X0000_000",
+      "id": "JJT_20260819_OGH0002_008OBA00034_26X0000_000",
       "application": "Justiz",
-      "case_number": "7Bs167/26x",
-      "court": "OLG Linz",
+      "case_number": "8ObA34/26x",
+      "court": "OGH",
       "decision_date": "2026-08-19",
       "source_url": null,
       "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
+      "search_terms": [],
       "origin": [
-        "keyword"
+        "recent_ogh"
       ]
     },
     {
-      "id": "JJT_20260818_OLG0639_0090BS00174_26W0000_000",
+      "id": "JJT_20260819_OGH0002_008OBA00029_26M0000_000",
       "application": "Justiz",
-      "case_number": "9Bs174/26w",
-      "court": "OLG Graz",
+      "case_number": "8ObA29/26m",
+      "court": "OGH",
+      "decision_date": "2026-08-19",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260819_OGH0002_008OBA00026_26W0000_000",
+      "application": "Justiz",
+      "case_number": "8ObA26/26w",
+      "court": "OGH",
+      "decision_date": "2026-08-19",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260819_OGH0002_008OBA00026_25V0000_000",
+      "application": "Justiz",
+      "case_number": "8ObA26/25v",
+      "court": "OGH",
+      "decision_date": "2026-08-19",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260819_OGH0002_008OBA00024_26A0000_000",
+      "application": "Justiz",
+      "case_number": "8ObA24/26a",
+      "court": "OGH",
+      "decision_date": "2026-08-19",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260819_OGH0002_008OBA00023_26D0000_000",
+      "application": "Justiz",
+      "case_number": "8ObA23/26d",
+      "court": "OGH",
+      "decision_date": "2026-08-19",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260819_OGH0002_0080OB00135_25Y0000_000",
+      "application": "Justiz",
+      "case_number": "8Ob135/25y",
+      "court": "OGH",
+      "decision_date": "2026-08-19",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260819_OGH0002_0080OB00115_25G0000_000",
+      "application": "Justiz",
+      "case_number": "8Ob115/25g",
+      "court": "OGH",
+      "decision_date": "2026-08-19",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260819_OGH0002_0080OB00107_25F0000_000",
+      "application": "Justiz",
+      "case_number": "8Ob107/25f",
+      "court": "OGH",
+      "decision_date": "2026-08-19",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260819_OGH0002_0080OB00083_26B0000_000",
+      "application": "Justiz",
+      "case_number": "8Ob83/26b",
+      "court": "OGH",
+      "decision_date": "2026-08-19",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260819_OGH0002_0080OB00074_26D0000_000",
+      "application": "Justiz",
+      "case_number": "8Ob74/26d",
+      "court": "OGH",
+      "decision_date": "2026-08-19",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260819_OGH0002_0080OB00070_26S0000_000",
+      "application": "Justiz",
+      "case_number": "8Ob70/26s",
+      "court": "OGH",
+      "decision_date": "2026-08-19",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260819_OGH0002_0080OB00061_26T0000_000",
+      "application": "Justiz",
+      "case_number": "8Ob61/26t",
+      "court": "OGH",
+      "decision_date": "2026-08-19",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260819_OGH0002_0080OB00058_26A0000_000",
+      "application": "Justiz",
+      "case_number": "8Ob58/26a",
+      "court": "OGH",
+      "decision_date": "2026-08-19",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260818_OGH0002_0070OB00130_26G0000_000",
+      "application": "Justiz",
+      "case_number": "7Ob130/26g",
+      "court": "OGH",
       "decision_date": "2026-08-18",
       "source_url": null,
       "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
+      "search_terms": [],
       "origin": [
-        "keyword"
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260818_OGH0002_0070OB00120_26M0000_000",
+      "application": "Justiz",
+      "case_number": "7Ob120/26m",
+      "court": "OGH",
+      "decision_date": "2026-08-18",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260818_OGH0002_0070OB00119_26I0000_000",
+      "application": "Justiz",
+      "case_number": "7Ob119/26i",
+      "court": "OGH",
+      "decision_date": "2026-08-18",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260818_OGH0002_0070OB00117_26W0000_000",
+      "application": "Justiz",
+      "case_number": "7Ob117/26w",
+      "court": "OGH",
+      "decision_date": "2026-08-18",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260818_OGH0002_0070OB00114_26D0000_000",
+      "application": "Justiz",
+      "case_number": "7Ob114/26d",
+      "court": "OGH",
+      "decision_date": "2026-08-18",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260818_OGH0002_0070OB00113_26G0000_000",
+      "application": "Justiz",
+      "case_number": "7Ob113/26g",
+      "court": "OGH",
+      "decision_date": "2026-08-18",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260818_OGH0002_0070OB00104_26H0000_000",
+      "application": "Justiz",
+      "case_number": "7Ob104/26h",
+      "court": "OGH",
+      "decision_date": "2026-08-18",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260818_OGH0002_0070OB00103_26M0000_000",
+      "application": "Justiz",
+      "case_number": "7Ob103/26m",
+      "court": "OGH",
+      "decision_date": "2026-08-18",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260818_OGH0002_0070OB00102_26I0000_000",
+      "application": "Justiz",
+      "case_number": "7Ob102/26i",
+      "court": "OGH",
+      "decision_date": "2026-08-18",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260818_OGH0002_0070OB00099_26Y0000_000",
+      "application": "Justiz",
+      "case_number": "7Ob99/26y",
+      "court": "OGH",
+      "decision_date": "2026-08-18",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260818_OGH0002_0070OB00087_26H0000_000",
+      "application": "Justiz",
+      "case_number": "7Ob87/26h",
+      "court": "OGH",
+      "decision_date": "2026-08-18",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260818_OGH0002_0070OB00086_26M0000_000",
+      "application": "Justiz",
+      "case_number": "7Ob86/26m",
+      "court": "OGH",
+      "decision_date": "2026-08-18",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260818_OGH0002_0070OB00085_26I0000_000",
+      "application": "Justiz",
+      "case_number": "7Ob85/26i",
+      "court": "OGH",
+      "decision_date": "2026-08-18",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
       ]
     },
     {
@@ -313,22 +1578,138 @@
         "Sachverständigengutachten"
       ],
       "origin": [
-        "keyword"
+        "keyword",
+        "recent_ogh"
       ]
     },
     {
-      "id": "JJT_20260813_OLG0639_0090BS00219_26P0000_000",
+      "id": "JJT_20260818_OGH0002_0070OB00078_26K0000_000",
       "application": "Justiz",
-      "case_number": "9Bs219/26p",
-      "court": "OLG Graz",
+      "case_number": "7Ob78/26k",
+      "court": "OGH",
+      "decision_date": "2026-08-18",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260818_OGH0002_0070OB00073_26Z0000_000",
+      "application": "Justiz",
+      "case_number": "7Ob73/26z",
+      "court": "OGH",
+      "decision_date": "2026-08-18",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260818_OGH0002_0070OB00069_26M0000_000",
+      "application": "Justiz",
+      "case_number": "7Ob69/26m",
+      "court": "OGH",
+      "decision_date": "2026-08-18",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260818_OGH0002_0070OB00067_26T0000_000",
+      "application": "Justiz",
+      "case_number": "7Ob67/26t",
+      "court": "OGH",
+      "decision_date": "2026-08-18",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260818_OGH0002_0070OB00060_26P0000_000",
+      "application": "Justiz",
+      "case_number": "7Ob60/26p",
+      "court": "OGH",
+      "decision_date": "2026-08-18",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260818_OGH0002_0070OB00022_26Z0000_000",
+      "application": "Justiz",
+      "case_number": "7Ob22/26z",
+      "court": "OGH",
+      "decision_date": "2026-08-18",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260818_OGH0002_0070OB00002_26H0000_000",
+      "application": "Justiz",
+      "case_number": "7Ob2/26h",
+      "court": "OGH",
+      "decision_date": "2026-08-18",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260817_OGH0002_0170OB00011_26F0000_000",
+      "application": "Justiz",
+      "case_number": "17Ob11/26f",
+      "court": "OGH",
+      "decision_date": "2026-08-17",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260817_OGH0002_0130NS00056_26B0000_000",
+      "application": "Justiz",
+      "case_number": "13Ns56/26b",
+      "court": "OGH",
+      "decision_date": "2026-08-17",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260813_OGH0002_504PRA00037_26I0000_000",
+      "application": "Justiz",
+      "case_number": "504Präs37/26i",
+      "court": "OGH",
       "decision_date": "2026-08-13",
       "source_url": null,
       "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
+      "search_terms": [],
       "origin": [
-        "keyword"
+        "recent_ogh"
       ]
     },
     {
@@ -347,6 +1728,58 @@
       ]
     },
     {
+      "id": "JJT_20260812_OGH0002_0060OB00195_25G0000_000",
+      "application": "Justiz",
+      "case_number": "6Ob195/25g",
+      "court": "OGH",
+      "decision_date": "2026-08-12",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260812_OGH0002_0060OB00172_25Z0000_000",
+      "application": "Justiz",
+      "case_number": "6Ob172/25z",
+      "court": "OGH",
+      "decision_date": "2026-08-12",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260812_OGH0002_0060OB00161_25G0000_000",
+      "application": "Justiz",
+      "case_number": "6Ob161/25g",
+      "court": "OGH",
+      "decision_date": "2026-08-12",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260812_OGH0002_0060OB00118_26K0000_000",
+      "application": "Justiz",
+      "case_number": "6Ob118/26k",
+      "court": "OGH",
+      "decision_date": "2026-08-12",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
       "id": "JJT_20260812_OGH0002_0060OB00107_25S0000_000",
       "application": "Justiz",
       "case_number": "6Ob107/25s",
@@ -358,307 +1791,242 @@
         "Wohnungseigentum"
       ],
       "origin": [
-        "keyword"
+        "keyword",
+        "recent_ogh"
       ]
     },
     {
-      "id": "JWT_2025030046_20260811L00",
-      "application": "Vwgh",
-      "case_number": "Ra 2025/03/0046",
-      "court": "Verwaltungsgerichtshof (VwGH)",
+      "id": "JJT_20260812_OGH0002_0060OB00104_26A0000_000",
+      "application": "Justiz",
+      "case_number": "6Ob104/26a",
+      "court": "OGH",
+      "decision_date": "2026-08-12",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260812_OGH0002_0060OB00094_26F0000_000",
+      "application": "Justiz",
+      "case_number": "6Ob94/26f",
+      "court": "OGH",
+      "decision_date": "2026-08-12",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260812_OGH0002_0060OB00067_26K0000_000",
+      "application": "Justiz",
+      "case_number": "6Ob67/26k",
+      "court": "OGH",
+      "decision_date": "2026-08-12",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260812_OGH0002_0050NC00011_26A0000_000",
+      "application": "Justiz",
+      "case_number": "5Nc11/26a",
+      "court": "OGH",
+      "decision_date": "2026-08-12",
+      "source_url": null,
+      "content_html_url": null,
+      "search_terms": [],
+      "origin": [
+        "recent_ogh"
+      ]
+    },
+    {
+      "id": "JJT_20260811_OGH0002_0140NS00055_26P0000_000",
+      "application": "Justiz",
+      "case_number": "14Ns55/26p",
+      "court": "OGH",
       "decision_date": "2026-08-11",
       "source_url": null,
       "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
+      "search_terms": [],
       "origin": [
-        "keyword"
+        "recent_ogh"
       ]
     },
     {
-      "id": "JJT_20260811_OLG0459_0070BS00149_26Z0000_000",
+      "id": "JJT_20260806_OGH0002_0040NC00012_26A0000_000",
       "application": "Justiz",
-      "case_number": "7Bs149/26z",
-      "court": "OLG Linz",
-      "decision_date": "2026-08-11",
+      "case_number": "4Nc12/26s",
+      "court": "OGH",
+      "decision_date": "2026-08-06",
       "source_url": null,
       "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
+      "search_terms": [],
       "origin": [
-        "keyword"
+        "recent_ogh"
       ]
     },
     {
-      "id": "JJT_20260805_OLG0639_0090BS00157_26W0000_000",
+      "id": "JJT_20260731_OGH0002_0090OB00056_26I0000_000",
       "application": "Justiz",
-      "case_number": "9Bs157/26w",
-      "court": "OLG Graz",
-      "decision_date": "2026-08-05",
+      "case_number": "9Ob56/26i",
+      "court": "OGH",
+      "decision_date": "2026-07-31",
       "source_url": null,
       "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
+      "search_terms": [],
       "origin": [
-        "keyword"
+        "recent_ogh"
       ]
     },
     {
-      "id": "JJT_20260803_OLG0639_0090BS00201_26S0000_000",
+      "id": "JJT_20260731_OGH0002_0090OB00018_26A0000_000",
       "application": "Justiz",
-      "case_number": "9Bs201/26s",
-      "court": "OLG Graz",
-      "decision_date": "2026-08-03",
+      "case_number": "9Ob18/26a",
+      "court": "OGH",
+      "decision_date": "2026-07-31",
       "source_url": null,
       "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
+      "search_terms": [],
       "origin": [
-        "keyword"
+        "recent_ogh"
       ]
     },
     {
-      "id": "JJT_20260803_OLG0459_0070BS00156_26D0000_000",
+      "id": "JJT_20260730_OGH0002_0050OB00110_26A0000_000",
       "application": "Justiz",
-      "case_number": "7Bs156/26d",
-      "court": "OLG Linz",
-      "decision_date": "2026-08-03",
+      "case_number": "5Ob110/26a",
+      "court": "OGH",
+      "decision_date": "2026-07-30",
       "source_url": null,
       "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
+      "search_terms": [],
       "origin": [
-        "keyword"
+        "recent_ogh"
       ]
     },
     {
-      "id": "JJT_20260729_OLG0459_0110RA00032_26V0000_000",
+      "id": "JJT_20260730_OGH0002_0050OB00108_26G0000_000",
       "application": "Justiz",
-      "case_number": "11Ra32/26v",
-      "court": "OLG Linz",
-      "decision_date": "2026-07-29",
+      "case_number": "5Ob108/26g",
+      "court": "OGH",
+      "decision_date": "2026-07-30",
       "source_url": null,
       "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
+      "search_terms": [],
       "origin": [
-        "keyword"
+        "recent_ogh"
       ]
     },
     {
-      "id": "JJT_20260727_OLG0459_0100BS00157_26Y0000_000",
+      "id": "JJT_20260728_OGH0002_0020OB00118_26F0000_000",
       "application": "Justiz",
-      "case_number": "10Bs157/26y",
-      "court": "OLG Linz",
-      "decision_date": "2026-07-27",
+      "case_number": "2Ob118/26f",
+      "court": "OGH",
+      "decision_date": "2026-07-28",
       "source_url": null,
       "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
+      "search_terms": [],
       "origin": [
-        "keyword"
+        "recent_ogh"
       ]
     },
     {
-      "id": "JJT_20260727_OLG0459_0090BS00169_26F0000_000",
+      "id": "JJT_20260728_OGH0002_0020OB00101_26F0000_000",
       "application": "Justiz",
-      "case_number": "9Bs169/26f",
-      "court": "OLG Linz",
-      "decision_date": "2026-07-27",
+      "case_number": "2Ob101/26f",
+      "court": "OGH",
+      "decision_date": "2026-07-28",
       "source_url": null,
       "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
+      "search_terms": [],
       "origin": [
-        "keyword"
+        "recent_ogh"
       ]
     },
     {
-      "id": "JJT_20260722_OLG0819_0230RS00015_26S0000_000",
+      "id": "JJT_20260728_OGH0002_0020OB00098_26I0000_000",
       "application": "Justiz",
-      "case_number": "23Rs15/26s",
-      "court": "OLG Innsbruck",
-      "decision_date": "2026-07-22",
+      "case_number": "2Ob98/26i",
+      "court": "OGH",
+      "decision_date": "2026-07-28",
       "source_url": null,
       "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
+      "search_terms": [],
       "origin": [
-        "keyword"
+        "recent_ogh"
       ]
     },
     {
-      "id": "JJT_20260722_OLG0819_0230RS00011_26B0000_000",
+      "id": "JJT_20260720_OGH0002_0030OB00098_26X0000_000",
       "application": "Justiz",
-      "case_number": "23Rs11/26b",
-      "court": "OLG Innsbruck",
-      "decision_date": "2026-07-22",
+      "case_number": "3Ob98/26x",
+      "court": "OGH",
+      "decision_date": "2026-07-20",
       "source_url": null,
       "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
+      "search_terms": [],
       "origin": [
-        "keyword"
+        "recent_ogh"
       ]
     },
     {
-      "id": "JJT_20260716_OLG0639_0060RS00039_26S0000_000",
+      "id": "JJT_20260702_OGH0002_0140OS00028_26P0000_000",
       "application": "Justiz",
-      "case_number": "6Rs39/26s",
-      "court": "OLG Graz",
-      "decision_date": "2026-07-16",
+      "case_number": "14Os28/26p",
+      "court": "OGH",
+      "decision_date": "2026-07-02",
       "source_url": null,
       "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
+      "search_terms": [],
       "origin": [
-        "keyword"
+        "recent_ogh"
       ]
     },
     {
-      "id": "JJT_20260716_OLG0639_0060RS00037_26X0000_000",
+      "id": "JJR_20260701_OGH0002_0120OS00058_26K0000_001",
       "application": "Justiz",
-      "case_number": "6Rs37/26x",
-      "court": "OLG Graz",
-      "decision_date": "2026-07-16",
-      "source_url": null,
-      "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
-      "origin": [
-        "keyword"
-      ]
-    },
-    {
-      "id": "JJT_20260716_OLG0639_0060RS00033_26H0000_000",
-      "application": "Justiz",
-      "case_number": "6Rs33/26h",
-      "court": "OLG Graz",
-      "decision_date": "2026-07-16",
-      "source_url": null,
-      "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
-      "origin": [
-        "keyword"
-      ]
-    },
-    {
-      "id": "JJT_20260716_OLG0639_0060RS00026_26D0000_000",
-      "application": "Justiz",
-      "case_number": "6Rs26/26d",
-      "court": "OLG Graz",
-      "decision_date": "2026-07-16",
-      "source_url": null,
-      "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
-      "origin": [
-        "keyword"
-      ]
-    },
-    {
-      "id": "JJT_20260701_OLG0639_0070RS00041_26T0000_000",
-      "application": "Justiz",
-      "case_number": "7Rs41/26t",
-      "court": "OLG Graz",
+      "case_number": "12Os58/26k (12Os59/26g)",
+      "court": "OGH",
       "decision_date": "2026-07-01",
       "source_url": null,
       "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
+      "search_terms": [],
       "origin": [
-        "keyword"
+        "recent_ogh"
       ]
     },
     {
-      "id": "JJT_20260701_OLG0639_0070RS00033_26S0000_000",
+      "id": "JJR_20260701_OGH0002_0120OS00058_26K0000_000",
       "application": "Justiz",
-      "case_number": "7Rs33/26s",
-      "court": "OLG Graz",
+      "case_number": "12Os58/26k (12Os59/26g)",
+      "court": "OGH",
       "decision_date": "2026-07-01",
       "source_url": null,
       "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
+      "search_terms": [],
       "origin": [
-        "keyword"
+        "recent_ogh"
       ]
     },
     {
-      "id": "JJT_20260701_OLG0639_0070RS00029_26B0000_000",
+      "id": "JJT_20260630_OGH0002_0100OB00043_26K0000_000",
       "application": "Justiz",
-      "case_number": "7Rs29/26b",
-      "court": "OLG Graz",
-      "decision_date": "2026-07-01",
+      "case_number": "10Ob43/26k",
+      "court": "OGH",
+      "decision_date": "2026-06-30",
       "source_url": null,
       "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
+      "search_terms": [],
       "origin": [
-        "keyword"
-      ]
-    },
-    {
-      "id": "JJT_20260624_OLG0819_0060BS00103_26M0000_000",
-      "application": "Justiz",
-      "case_number": "6Bs103/26m",
-      "court": "OLG Innsbruck",
-      "decision_date": "2026-06-24",
-      "source_url": null,
-      "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
-      "origin": [
-        "keyword"
-      ]
-    },
-    {
-      "id": "JJT_20260619_OLG0819_00400R00014_26D0000_000",
-      "application": "Justiz",
-      "case_number": "4R14/26d",
-      "court": "OLG Innsbruck",
-      "decision_date": "2026-06-19",
-      "source_url": null,
-      "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
-      "origin": [
-        "keyword"
-      ]
-    },
-    {
-      "id": "JJT_20260617_OLG0639_00400R00046_26F0000_000",
-      "application": "Justiz",
-      "case_number": "4R46/26f",
-      "court": "OLG Graz",
-      "decision_date": "2026-06-17",
-      "source_url": null,
-      "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
-      "origin": [
-        "keyword"
+        "recent_ogh"
       ]
     },
     {
@@ -755,228 +2123,55 @@
       ]
     },
     {
-      "id": "JJT_20260615_OLG0639_00600R00026_26D0000_000",
+      "id": "JJR_20260527_OGH0002_0090OB00022_26I0000_000",
       "application": "Justiz",
-      "case_number": "6R26/26d",
-      "court": "OLG Graz",
-      "decision_date": "2026-06-15",
-      "source_url": null,
-      "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
-      "origin": [
-        "keyword"
-      ]
-    },
-    {
-      "id": "JJT_20260608_OLG0009_0310BS00120_26P0000_000",
-      "application": "Justiz",
-      "case_number": "31Bs120/26p (31 Bs 121/26k)",
-      "court": "OLG Wien",
-      "decision_date": "2026-06-08",
-      "source_url": null,
-      "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
-      "origin": [
-        "keyword"
-      ]
-    },
-    {
-      "id": "JJT_20260608_OLG0009_00600R00209_26P0000_000",
-      "application": "Justiz",
-      "case_number": "6R209/26p",
-      "court": "OLG Wien",
-      "decision_date": "2026-06-08",
-      "source_url": null,
-      "content_html_url": null,
-      "search_terms": [
-        "Wohnungseigentum"
-      ],
-      "origin": [
-        "keyword"
-      ]
-    },
-    {
-      "id": "JJT_20260603_OLG0819_00100R00008_26Z0000_000",
-      "application": "Justiz",
-      "case_number": "1R8/26z",
-      "court": "OLG Innsbruck",
-      "decision_date": "2026-06-03",
-      "source_url": null,
-      "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
-      "origin": [
-        "keyword"
-      ]
-    },
-    {
-      "id": "JJT_20260603_OLG0009_0190BS00144_26D0000_000",
-      "application": "Justiz",
-      "case_number": "19Bs144/26d",
-      "court": "OLG Wien",
-      "decision_date": "2026-06-03",
-      "source_url": null,
-      "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
-      "origin": [
-        "keyword"
-      ]
-    },
-    {
-      "id": "JJT_20260528_OLG0639_0070RS00022_26Y0000_000",
-      "application": "Justiz",
-      "case_number": "7Rs22/26y",
-      "court": "OLG Graz",
-      "decision_date": "2026-05-28",
-      "source_url": null,
-      "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
-      "origin": [
-        "keyword"
-      ]
-    },
-    {
-      "id": "JJT_20260528_OLG0009_0090RS00014_26H0000_000",
-      "application": "Justiz",
-      "case_number": "9Rs14/26h",
-      "court": "OLG Wien",
-      "decision_date": "2026-05-28",
-      "source_url": null,
-      "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
-      "origin": [
-        "keyword"
-      ]
-    },
-    {
-      "id": "JJT_20260527_OLG0459_00100R00044_26K0000_000",
-      "application": "Justiz",
-      "case_number": "1R44/26k",
-      "court": "OLG Linz",
+      "case_number": "9Ob22/26i",
+      "court": "OGH",
       "decision_date": "2026-05-27",
       "source_url": null,
       "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
+      "search_terms": [],
       "origin": [
-        "keyword"
+        "recent_ogh"
       ]
     },
     {
-      "id": "JJT_20260526_OLG0009_01300R00174_25S0000_000",
+      "id": "JJT_20260407_OGH0002_018OCG00001_26K0000_001",
       "application": "Justiz",
-      "case_number": "13R174/25s",
-      "court": "OLG Wien",
-      "decision_date": "2026-05-26",
+      "case_number": "18OCg1/26k",
+      "court": "OGH",
+      "decision_date": "2026-04-07",
       "source_url": null,
       "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
+      "search_terms": [],
       "origin": [
-        "keyword"
+        "recent_ogh"
       ]
     },
     {
-      "id": "JJT_20260521_OLG0009_0180BS00036_26I0000_000",
+      "id": "JJR_20260326_OGH0002_0040OB00155_25K0000_001",
       "application": "Justiz",
-      "case_number": "18Bs36/26i",
-      "court": "OLG Wien",
-      "decision_date": "2026-05-21",
+      "case_number": "4Ob155/25k (4Ob156/25g)",
+      "court": "OGH",
+      "decision_date": "2026-03-26",
       "source_url": null,
       "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
+      "search_terms": [],
       "origin": [
-        "keyword"
+        "recent_ogh"
       ]
     },
     {
-      "id": "JJT_20260520_OLG0459_00200R00062_26I0000_000",
+      "id": "JJR_20260326_OGH0002_0040OB00155_25K0000_000",
       "application": "Justiz",
-      "case_number": "2R62/26i",
-      "court": "OLG Linz",
-      "decision_date": "2026-05-20",
+      "case_number": "4Ob155/25k (4Ob156/25g)",
+      "court": "OGH",
+      "decision_date": "2026-03-26",
       "source_url": null,
       "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
+      "search_terms": [],
       "origin": [
-        "keyword"
-      ]
-    },
-    {
-      "id": "JJT_20260505_OLG0819_0120BS00021_26X0000_000",
-      "application": "Justiz",
-      "case_number": "12Bs21/26x",
-      "court": "OLG Innsbruck",
-      "decision_date": "2026-05-05",
-      "source_url": null,
-      "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
-      "origin": [
-        "keyword"
-      ]
-    },
-    {
-      "id": "JJT_20260428_OLG0009_0100RS00017_26G0000_000",
-      "application": "Justiz",
-      "case_number": "10Rs17/26g",
-      "court": "OLG Wien",
-      "decision_date": "2026-04-28",
-      "source_url": null,
-      "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
-      "origin": [
-        "keyword"
-      ]
-    },
-    {
-      "id": "JJT_20260428_OLG0009_0090RS00124_25H0000_000",
-      "application": "Justiz",
-      "case_number": "9Rs124/25h",
-      "court": "OLG Wien",
-      "decision_date": "2026-04-28",
-      "source_url": null,
-      "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
-      "origin": [
-        "keyword"
-      ]
-    },
-    {
-      "id": "JJT_20260312_OLG0639_0070RS00012_26B0000_000",
-      "application": "Justiz",
-      "case_number": "7Rs12/26b",
-      "court": "OLG Graz",
-      "decision_date": "2026-03-12",
-      "source_url": null,
-      "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
-      "origin": [
-        "keyword"
+        "recent_ogh"
       ]
     },
     {
@@ -1011,169 +2206,107 @@
       ]
     },
     {
-      "id": "JJT_20260225_OLG0819_00100R00177_25A0000_000",
+      "id": "JJT_20101222_OGH0002_0020OB00073_10I0000_000",
       "application": "Justiz",
-      "case_number": "1R177/25a",
-      "court": "OLG Innsbruck",
-      "decision_date": "2026-02-25",
+      "case_number": "2Ob73/10i",
+      "court": "OGH",
+      "decision_date": "2010-12-22",
       "source_url": null,
       "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
+      "search_terms": [],
       "origin": [
-        "keyword"
+        "recent_ogh"
       ]
     },
     {
-      "id": "JJT_20260223_OLG0009_0210BS00048_25Z0000_000",
+      "id": "JJT_19790529_OGH0002_0040OB00122_7800000_000",
       "application": "Justiz",
-      "case_number": "21Bs48/25z",
-      "court": "OLG Wien",
-      "decision_date": "2026-02-23",
+      "case_number": "4 Ob 122/78",
+      "court": "OGH",
+      "decision_date": "1979-05-29",
       "source_url": null,
       "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
+      "search_terms": [],
       "origin": [
-        "keyword"
+        "recent_ogh"
       ]
     },
     {
-      "id": "JJT_20260204_OLG0819_01200R00001_26A0000_000",
+      "id": "JJT_19781128_OGH0002_0040OB00389_7800000_000",
       "application": "Justiz",
-      "case_number": "12R1/26a",
-      "court": "OLG Innsbruck",
-      "decision_date": "2026-02-04",
+      "case_number": "4Ob389/78",
+      "court": "OGH",
+      "decision_date": "1978-11-28",
       "source_url": null,
       "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
+      "search_terms": [],
       "origin": [
-        "keyword"
+        "recent_ogh"
       ]
     },
     {
-      "id": "JJT_20251211_OLG0459_00400R00146_25F0000_000",
+      "id": "JJT_19780511_OGH0002_0070OB00023_7800000_000",
       "application": "Justiz",
-      "case_number": "4R146/25f",
-      "court": "OLG Linz",
-      "decision_date": "2025-12-11",
+      "case_number": "7Ob23/78",
+      "court": "OGH",
+      "decision_date": "1978-05-11",
       "source_url": null,
       "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
+      "search_terms": [],
       "origin": [
-        "keyword"
+        "recent_ogh"
       ]
     },
     {
-      "id": "JJT_20251113_OLG0819_00100R00148_25M0000_000",
+      "id": "JJT_19780404_OGH0002_0040OB00318_7800000_000",
       "application": "Justiz",
-      "case_number": "1R148/25m",
-      "court": "OLG Innsbruck",
-      "decision_date": "2025-11-13",
+      "case_number": "4Ob318/78",
+      "court": "OGH",
+      "decision_date": "1978-04-04",
       "source_url": null,
       "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
+      "search_terms": [],
       "origin": [
-        "keyword"
+        "recent_ogh"
       ]
     },
     {
-      "id": "JJT_20250717_OLG0819_00100R00077_25W0000_000",
+      "id": "JJT_19780307_OGH0002_0040OB00317_7800000_000",
       "application": "Justiz",
-      "case_number": "1R77/25w",
-      "court": "OLG Innsbruck",
-      "decision_date": "2025-07-17",
+      "case_number": "4Ob317/78",
+      "court": "OGH",
+      "decision_date": "1978-03-07",
       "source_url": null,
       "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
+      "search_terms": [],
       "origin": [
-        "keyword"
+        "recent_ogh"
       ]
     },
     {
-      "id": "JJT_20250220_OLG0819_00100R00162_24V0000_000",
+      "id": "JJT_19780207_OGH0002_0040OB00207_7800000_000",
       "application": "Justiz",
-      "case_number": "1R162/24v",
-      "court": "OLG Innsbruck",
-      "decision_date": "2025-02-20",
+      "case_number": "4Ob308/78",
+      "court": "OGH",
+      "decision_date": "1978-02-07",
       "source_url": null,
       "content_html_url": null,
-      "search_terms": [
-        "Verkehrswert",
-        "Liegenschaftsbewertung"
-      ],
+      "search_terms": [],
       "origin": [
-        "keyword"
+        "recent_ogh"
       ]
     },
     {
-      "id": "JJT_20250210_OLG0009_0300BS00034_25G0000_000",
+      "id": "JJT_19780126_OGH0002_0070OB00003_7800000_000",
       "application": "Justiz",
-      "case_number": "30Bs34/25g",
-      "court": "OLG Wien",
-      "decision_date": "2025-02-10",
+      "case_number": "7Ob3/78",
+      "court": "OGH",
+      "decision_date": "1978-01-26",
       "source_url": null,
       "content_html_url": null,
-      "search_terms": [
-        "Sachverständigengutachten"
-      ],
+      "search_terms": [],
       "origin": [
-        "keyword"
-      ]
-    },
-    {
-      "id": "JJT_20250206_OLG0819_00100R00009_25W0000_000",
-      "application": "Justiz",
-      "case_number": "1R9/25w",
-      "court": "OLG Innsbruck",
-      "decision_date": "2025-02-06",
-      "source_url": null,
-      "content_html_url": null,
-      "search_terms": [
-        "Wohnungseigentum"
-      ],
-      "origin": [
-        "keyword"
-      ]
-    },
-    {
-      "id": "JJT_20241120_OLG0009_01100R00180_24G0000_000",
-      "application": "Justiz",
-      "case_number": "11R180/24g",
-      "court": "OLG Wien",
-      "decision_date": "2024-11-20",
-      "source_url": null,
-      "content_html_url": null,
-      "search_terms": [
-        "Verkehrswert"
-      ],
-      "origin": [
-        "keyword"
-      ]
-    },
-    {
-      "id": "JJT_20040318_OLG0009_00100R00021_04X0000_000",
-      "application": "Justiz",
-      "case_number": "1R21/04x",
-      "court": "OLG Wien",
-      "decision_date": "2004-03-18",
-      "source_url": null,
-      "content_html_url": null,
-      "search_terms": [
-        "Verkehrswert"
-      ],
-      "origin": [
-        "keyword"
+        "recent_ogh"
       ]
     }
   ]
