@@ -18,7 +18,7 @@ https://raw.githubusercontent.com/th9k5vzvbf-spec/ris-ogd-reader/main/data/lates
 
 Der öffentliche Raw-Link ist ohne GitHub Pages lesbar. Der nachgelagerte Bewertungsmonitor muss `generated_at_utc`, `status`, `court_scope`, die Anzahl der Rückgaben sowie alle Fehler und unvollständig paginierten Teilabfragen prüfen und jede relevante Entscheidung im Original-RIS inhaltlich verifizieren.
 
-Die API-Aufrufe erfolgen nacheinander mit einem Mindestabstand von 2,2 Sekunden; höchstens zwei Trefferseiten je Stichwort und bis zu 35 Seiten für die drei breiteren Prüfschritte. Bei Fehlern bzw. unvollständiger Paginierung wird der Ergebnisstatus `incomplete` geschrieben und die GitHub Action als fehlgeschlagen angezeigt, statt einen Erfolg vorzutäuschen.
+Die API-Aufrufe erfolgen nacheinander mit einer Pause von mindestens 2,2 Sekunden nach jeder Antwort; höchstens zwei Trefferseiten je Stichwort und bis zu 35 Seiten für die drei breiteren Prüfschritte. Pro Anfrage gilt eine Antwortfrist von 60 Sekunden. Bei Zeitüberschreitungen und vorübergehenden Verbindungs- oder Serverfehlern sind höchstens zwei Wiederholungen vorgesehen, mit 5 bzw. 15 Sekunden Wartezeit. Eine längere, vom Server vorgegebene Wartezeit wird berücksichtigt; bei mehr als 60 Sekunden wird die Anfrage als fehlgeschlagen gemeldet. Dokumentlinks auf der offiziellen Domain `ogd.ris.bka.gv.at` werden übernommen. Bei Fehlern bzw. unvollständiger Paginierung wird der Ergebnisstatus `incomplete` geschrieben und die GitHub Action als fehlgeschlagen angezeigt, statt einen Erfolg vorzutäuschen.
 
 Programmtests lokal: `python -m unittest discover -s tests -v`.
 

@@ -27,6 +27,9 @@ TERMS = (
 PAGE_SIZE = 50
 PAGE_ENUM = "Fifty"
 MIN_INTERVAL_SECONDS = 2.2
+REQUEST_TIMEOUT_SECONDS = 60
+RETRY_DELAYS_SECONDS = (5, 15)
+RETRYABLE_HTTP_STATUSES = (408, 429, 500, 502, 503, 504)
 SOURCE = "https://www.ris.bka.gv.at/UI/Ogd.aspx"
 DOCS = ("https://www.data.gv.at/katalog/dataset/"
         "0fb9ae1a-92cb-4ab8-a589-470c16d4fe21")
@@ -56,15 +59,53 @@ class RISClient:
         url = API_ROOT + "/" + endpoint + "?" + urlencode(params)
         if urlsplit(url).hostname != "data.bka.gv.at":
             raise ValueError("Nicht freigegebener Server")
-        delay = self.interval - (time.monotonic() - self.last_request)
-        if delay > 0:
-            time.sleep(delay)
-        self.last_request = time.monotonic()
         request = Request(url, headers={
             "Accept": "application/json", "User-Agent": self.user_agent,
         }, method="GET")
+        attempts = len(RETRY_DELAYS_SECONDS) + 1
+        for attempt in range(attempts):
+            delay = self.interval - (time.monotonic() - self.last_request)
+            if delay > 0:
+                time.sleep(delay)
+            try:
+                return self._read_response(request)
+            except (HTTPError, URLError, TimeoutError) as exc:
+                retry_delay = (RETRY_DELAYS_SECONDS[attempt]
+                               if attempt < len(RETRY_DELAYS_SECONDS) else None)
+                if isinstance(exc, HTTPError):
+                    reason = f"HTTP {exc.code}"
+                    if exc.code not in RETRYABLE_HTTP_STATUSES:
+                        retry_delay = None
+                    retry_after = exc.headers.get("Retry-After") if exc.headers else None
+                    if retry_after and retry_delay is not None:
+                        # Do not retry earlier than the server permits. A long
+                        # or date-form delay is left for the next scheduled run.
+                        if retry_after.isdigit() and int(retry_after) <= 60:
+                            retry_delay = max(retry_delay, int(retry_after))
+                        else:
+                            retry_delay = None
+                    exc.close()
+                else:
+                    reason = type(exc).__name__
+                if retry_delay is None:
+                    raise RISResponseError(
+                        f"RIS-Anfrage fehlgeschlagen: {reason} "
+                        f"nach {attempt + 1} Versuch(en) ({endpoint})"
+                    ) from exc
+                print(
+                    f"RIS {endpoint}: {reason}; neuer Versuch "
+                    f"{attempt + 2}/{attempts} in {retry_delay} Sekunden.",
+                    file=sys.stderr, flush=True,
+                )
+            finally:
+                # Pause after completion too, including slow requests/retries.
+                self.last_request = time.monotonic()
+            time.sleep(retry_delay)
+        raise RISResponseError("RIS-Anfrage ohne Ergebnis")
+
+    def _read_response(self, request: Request) -> dict:
         try:
-            with self.opener.open(request, timeout=35) as response:
+            with self.opener.open(request, timeout=REQUEST_TIMEOUT_SECONDS) as response:
                 if response.status != 200:
                     raise RISResponseError("Unerwarteter HTTP-Status")
                 if not response.headers.get("Content-Type", "").lower().startswith(
@@ -75,7 +116,7 @@ class RISClient:
                 if len(raw) > 10_000_000:
                     raise RISResponseError("Antwort zu groß")
             result = json.loads(raw.decode("utf-8"))
-        except (HTTPError, URLError, TimeoutError, ValueError) as exc:
+        except ValueError as exc:
             raise RISResponseError(f"RIS-Anfrage fehlgeschlagen: {type(exc).__name__}") from exc
         if not isinstance(result, dict):
             raise RISResponseError("Unerwartetes JSON-Format")
@@ -134,6 +175,7 @@ def allowed_ris_url(value: object) -> str | None:
             and parts.password is None
             and parts.port in (None, 443)
             and parts.hostname in ("ris.bka.gv.at", "www.ris.bka.gv.at",
+                                   "ogd.ris.bka.gv.at",
                                    "data.bka.gv.at")):
         return url
     return None
